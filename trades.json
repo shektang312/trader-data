@@ -1,1 +1,16 @@
-{"trades":[]}
+{
+  "trades": [
+    {
+      "id": "trade-1783397754694",
+      "coin": "AVAX",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 168.11,
+      "entryPrice": 6.7922,
+      "openedAt": "2026-07-07T04:15:54Z",
+      "signal": "breakdown",
+      "confidence": 99,
+      "testnet": true
+    }
+  ]
+}
