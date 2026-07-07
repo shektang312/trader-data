@@ -1,1 +1,29 @@
-{"columns":[]}
+{
+  "columns": [
+    {
+      "id": "col-parked",
+      "title": "Parked",
+      "cards": []
+    },
+    {
+      "id": "col-todo",
+      "title": "Todo",
+      "cards": []
+    },
+    {
+      "id": "col-inprogress",
+      "title": "In Progress",
+      "cards": []
+    },
+    {
+      "id": "col-review",
+      "title": "Review",
+      "cards": []
+    },
+    {
+      "id": "col-done",
+      "title": "Done",
+      "cards": []
+    }
+  ]
+}
