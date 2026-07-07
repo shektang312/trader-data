@@ -1,6 +1,18 @@
 {
   "trades": [
     {
+      "id": "trade-1783409435122",
+      "coin": "ADA",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 6290.0,
+      "entryPrice": 0.180257,
+      "openedAt": "2026-07-07T07:30:35Z",
+      "signal": "ema_stack_bearish",
+      "confidence": 84,
+      "testnet": true
+    },
+    {
       "id": "trade-1783397778516",
       "coin": "SUI",
       "direction": "SHORT",
