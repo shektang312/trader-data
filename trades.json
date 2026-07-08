@@ -10,7 +10,12 @@
       "openedAt": "2026-07-08T00:00:44Z",
       "signal": "ema_stack_bearish",
       "confidence": 90,
-      "testnet": true
+      "testnet": true,
+      "exitPrice": 6.42819,
+      "pnlUsd": 47.3334,
+      "pnlPct": 3.8071,
+      "status": "closed",
+      "closedAt": "2026-07-08T02:01:14Z"
     },
     {
       "id": "trade-1783409446321",
