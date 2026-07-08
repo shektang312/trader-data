@@ -27,7 +27,12 @@
       "openedAt": "2026-07-07T07:30:46Z",
       "signal": "ema_stack_bearish",
       "confidence": 84,
-      "testnet": true
+      "testnet": true,
+      "status": "open",
+      "exitPrice": null,
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null
     },
     {
       "id": "trade-1783397778516",
@@ -39,7 +44,12 @@
       "openedAt": "2026-07-07T04:16:18Z",
       "signal": "breakdown",
       "confidence": 90,
-      "testnet": true
+      "testnet": true,
+      "status": "open",
+      "exitPrice": null,
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null
     }
   ]
 }
