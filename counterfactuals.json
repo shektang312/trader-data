@@ -7,8 +7,8 @@
       "lock_time_utc": "14:45",
       "day_pnl_pct": 11.77,
       "locked_equity": 510.62,
-      "nolock_equity": 514.02,
-      "lock_saved": -3.4,
+      "nolock_equity": 521.05,
+      "lock_saved": -10.43,
       "trades": [
         {
           "coin": "ADA",
@@ -38,19 +38,19 @@
           "coin": "ETH",
           "dir": "SHORT",
           "exit": "day_end_mark",
-          "pnl": 10.3
+          "pnl": 15.61
         },
         {
           "coin": "BTC",
           "dir": "LONG",
           "exit": "day_end_mark",
-          "pnl": -15.13
+          "pnl": -11.96
         },
         {
           "coin": "SUI",
           "dir": "SHORT",
           "exit": "day_end_mark",
-          "pnl": 2.88
+          "pnl": 1.43
         }
       ]
     }
