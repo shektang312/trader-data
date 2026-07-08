@@ -1,0 +1,58 @@
+{
+  "days": [
+    {
+      "day": 20641,
+      "date": "2026-07-07",
+      "reason": "daily_target_hit",
+      "lock_time_utc": "14:45",
+      "day_pnl_pct": 11.77,
+      "locked_equity": 510.62,
+      "nolock_equity": 514.02,
+      "lock_saved": -3.4,
+      "trades": [
+        {
+          "coin": "ADA",
+          "dir": "SHORT",
+          "exit": "momentum",
+          "pnl": -12.36
+        },
+        {
+          "coin": "XLM",
+          "dir": "SHORT",
+          "exit": "momentum",
+          "pnl": -10.86
+        },
+        {
+          "coin": "NEAR",
+          "dir": "LONG",
+          "exit": "stop",
+          "pnl": 14.49
+        },
+        {
+          "coin": "ADA",
+          "dir": "SHORT",
+          "exit": "momentum",
+          "pnl": 14.07
+        },
+        {
+          "coin": "ETH",
+          "dir": "SHORT",
+          "exit": "day_end_mark",
+          "pnl": 10.3
+        },
+        {
+          "coin": "BTC",
+          "dir": "LONG",
+          "exit": "day_end_mark",
+          "pnl": -15.13
+        },
+        {
+          "coin": "SUI",
+          "dir": "SHORT",
+          "exit": "day_end_mark",
+          "pnl": 2.88
+        }
+      ]
+    }
+  ]
+}
