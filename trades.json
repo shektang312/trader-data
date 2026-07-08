@@ -1,6 +1,18 @@
 {
   "trades": [
     {
+      "id": "trade-1783468836064",
+      "coin": "SOL",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 16.05,
+      "entryPrice": 79.2205,
+      "openedAt": "2026-07-08T00:00:36Z",
+      "signal": "ema_stack_bearish",
+      "confidence": 90,
+      "testnet": true
+    },
+    {
       "id": "trade-1783409446321",
       "coin": "DOGE",
       "direction": "SHORT",
