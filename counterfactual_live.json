@@ -1,14 +1,14 @@
 {
   "active": true,
-  "asof": "2026-07-08T08:00:02Z",
+  "asof": "2026-07-08T08:15:02Z",
   "day": 20642,
   "date": "2026-07-08",
   "reason": "daily_target_hit",
   "lock_time_utc": "02:01",
   "day_pnl_pct": 10.34,
   "locked_equity": 563.39,
-  "nolock_equity": 589.77,
-  "lock_saved": -26.38,
+  "nolock_equity": 589.86,
+  "lock_saved": -26.47,
   "trades": [
     {
       "coin": "AVAX",
@@ -32,19 +32,19 @@
       "coin": "DOGE",
       "dir": "SHORT",
       "exit": "open",
-      "pnl": 7.35
+      "pnl": 3.28
     },
     {
       "coin": "ETH",
       "dir": "SHORT",
       "exit": "open",
-      "pnl": -3.95
+      "pnl": -2.23
     },
     {
       "coin": "BTC",
       "dir": "SHORT",
       "exit": "open",
-      "pnl": -2.48
+      "pnl": -0.05
     }
   ]
 }
