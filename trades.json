@@ -15,7 +15,12 @@
       "pnlUsd": 47.3334,
       "pnlPct": 3.8071,
       "status": "closed",
-      "closedAt": "2026-07-08T02:01:14Z"
+      "closedAt": "2026-07-08T02:01:14Z",
+      "notes": {
+        "hypothesis": "All three EMAs were stacked bearishly (EMA9 < EMA21 < EMA50) with downward slope, signaling sustained selling pressure rather than a brief pullback. At 90% confidence this was one of the cleanest setups in the session, suggesting strong trend alignment across the short-term timeframe.",
+        "exitReason": "Trade closed after roughly 2 hours with a 3.56% move in our favor \u2014 most likely a trailing stop triggered as price consolidated or briefly bounced off intraday support near $6.44. The quick closure relative to ADA and XLM suggests momentum decelerated early rather than a full TP hit.",
+        "learnings": "High-confidence EMA stack entries on AVAX can deliver clean, fast moves \u2014 10.28% return at 5x in under 2 hours validates the setup quality. Worth reviewing whether a slightly wider trailing stop could have captured more of the move before momentum faded."
+      }
     },
     {
       "id": "trade-1783409446321",
