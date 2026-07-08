@@ -15,12 +15,7 @@
       "pnlUsd": 47.3334,
       "pnlPct": 3.8071,
       "status": "closed",
-      "closedAt": "2026-07-08T02:01:14Z",
-      "notes": {
-        "hypothesis": "All three EMAs were stacked bearishly (EMA9 < EMA21 < EMA50) with downward slope, signaling sustained selling pressure rather than a brief pullback. At 90% confidence this was one of the cleanest setups in the session, suggesting strong trend alignment across the short-term timeframe.",
-        "exitReason": "Trade closed after roughly 2 hours with a 3.56% move in our favor \u2014 most likely a trailing stop triggered as price consolidated or briefly bounced off intraday support near $6.44. The quick closure relative to ADA and XLM suggests momentum decelerated early rather than a full TP hit.",
-        "learnings": "High-confidence EMA stack entries on AVAX can deliver clean, fast moves \u2014 10.28% return at 5x in under 2 hours validates the setup quality. Worth reviewing whether a slightly wider trailing stop could have captured more of the move before momentum faded."
-      }
+      "closedAt": "2026-07-08T02:01:14Z"
     },
     {
       "id": "trade-1783409446321",
@@ -37,7 +32,12 @@
       "exitPrice": 0.176052,
       "closedAt": "2026-07-07T14:45:07Z",
       "pnlUsd": 26.3483,
-      "pnlPct": 5.724
+      "pnlPct": 5.724,
+      "notes": {
+        "hypothesis": "EMA stack bearish signal at 84% confidence indicated a developing downtrend on the 15-minute chart, with the layered EMA alignment suggesting sellers were in control across multiple lookback periods. Lower confidence than AVAX hinted at slightly noisier price action but still above the threshold for entry.",
+        "exitReason": "Position held approximately 7 hours before closing near $0.1761, consistent with a trailing stop or momentum reversal as price crossed back toward the short-term EMA. The extended hold time suggests the move ground lower slowly rather than a sharp flush, with the exit likely triggered during a late-session bounce.",
+        "learnings": "Lower-confidence EMA stack trades on low-float alts like ADA can still be profitable but require patience \u2014 7 hours is a long hold for a 15-min cadence system. Consider whether a tighter initial TP target makes more sense when confidence is below 90 to lock in gains before mean-reversion pressure builds."
+      }
     },
     {
       "id": "trade-1783397778516",
