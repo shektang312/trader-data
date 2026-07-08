@@ -1,13 +1,13 @@
 {
   "trades": [
     {
-      "id": "trade-1783468836064",
-      "coin": "SOL",
+      "id": "trade-1783468844747",
+      "coin": "AVAX",
       "direction": "SHORT",
       "leverage": 5,
-      "size": 16.05,
-      "entryPrice": 79.2205,
-      "openedAt": "2026-07-08T00:00:36Z",
+      "size": 186.3,
+      "entryPrice": 6.6826,
+      "openedAt": "2026-07-08T00:00:44Z",
       "signal": "ema_stack_bearish",
       "confidence": 90,
       "testnet": true
