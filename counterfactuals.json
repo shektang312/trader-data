@@ -53,6 +53,72 @@
           "pnl": 1.43
         }
       ]
+    },
+    {
+      "day": 20642,
+      "date": "2026-07-08",
+      "reason": "daily_target_hit",
+      "lock_time_utc": "02:01",
+      "day_pnl_pct": 10.34,
+      "locked_equity": 563.39,
+      "nolock_equity": 619.96,
+      "lock_saved": -56.57,
+      "trades": [
+        {
+          "coin": "AVAX",
+          "dir": "SHORT",
+          "exit": "momentum",
+          "pnl": 3.65
+        },
+        {
+          "coin": "SOL",
+          "dir": "SHORT",
+          "exit": "momentum",
+          "pnl": 7.77
+        },
+        {
+          "coin": "ADA",
+          "dir": "SHORT",
+          "exit": "momentum",
+          "pnl": 14.04
+        },
+        {
+          "coin": "ETH",
+          "dir": "SHORT",
+          "exit": "stop",
+          "pnl": -1.01
+        },
+        {
+          "coin": "DOGE",
+          "dir": "SHORT",
+          "exit": "momentum",
+          "pnl": 21.14
+        },
+        {
+          "coin": "BTC",
+          "dir": "SHORT",
+          "exit": "stop",
+          "pnl": -1.03
+        },
+        {
+          "coin": "BTC",
+          "dir": "SHORT",
+          "exit": "momentum",
+          "pnl": 18.45
+        },
+        {
+          "coin": "kPEPE",
+          "dir": "SHORT",
+          "exit": "day_end_mark",
+          "pnl": 1.26
+        },
+        {
+          "coin": "NEAR",
+          "dir": "SHORT",
+          "exit": "day_end_mark",
+          "pnl": -7.71
+        }
+      ]
     }
   ]
 }
