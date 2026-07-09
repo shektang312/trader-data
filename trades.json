@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1783557948573",
+      "coin": "XLM",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 7658.0,
+      "entryPrice": 0.18125,
+      "exitPrice": null,
+      "openedAt": "2026-07-09T00:45:48Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "breakdown",
+      "confidence": 95,
+      "testnet": true
+    },
+    {
       "id": "trade-1783555257463",
       "coin": "BTC",
       "direction": "SHORT",
