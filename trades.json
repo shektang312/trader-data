@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1783555257463",
+      "coin": "BTC",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 0.02286,
+      "entryPrice": 61441.6,
+      "exitPrice": null,
+      "openedAt": "2026-07-09T00:00:57Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "breakdown",
+      "confidence": 90,
+      "testnet": true
+    },
+    {
       "id": "trade-1783468844747",
       "coin": "AVAX",
       "direction": "SHORT",
