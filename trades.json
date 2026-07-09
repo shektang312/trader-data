@@ -1,20 +1,20 @@
 {
   "trades": [
     {
-      "id": "trade-1783555257463",
-      "coin": "BTC",
+      "id": "trade-1783555267167",
+      "coin": "SUI",
       "direction": "SHORT",
       "leverage": 5,
-      "size": 0.02286,
-      "entryPrice": 61441.6,
+      "size": 1946.1,
+      "entryPrice": 0.7106,
       "exitPrice": null,
-      "openedAt": "2026-07-09T00:00:57Z",
+      "openedAt": "2026-07-09T00:01:07Z",
       "closedAt": null,
       "pnlUsd": null,
       "pnlPct": null,
       "status": "open",
       "signal": "breakdown",
-      "confidence": 90,
+      "confidence": 81,
       "testnet": true
     },
     {
