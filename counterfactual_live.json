@@ -1,20 +1,20 @@
 {
   "active": true,
-  "asof": "2026-07-09T18:30:01Z",
+  "asof": "2026-07-09T19:00:02Z",
   "day": 20643,
   "date": "2026-07-09",
   "reason": "daily_floor_hit",
   "lock_time_utc": "03:45",
   "day_pnl_pct": -5.0,
   "locked_equity": 535.21,
-  "nolock_equity": 518.38,
-  "lock_saved": 16.83,
+  "nolock_equity": 504.83,
+  "lock_saved": 30.38,
   "trades": [
     {
       "coin": "XLM",
       "dir": "SHORT",
       "exit": "open",
-      "pnl": -16.83
+      "pnl": -30.38
     }
   ]
 }
