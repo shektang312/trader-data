@@ -1,68 +1,20 @@
 {
   "active": true,
-  "asof": "2026-07-08T23:45:01Z",
-  "day": 20642,
-  "date": "2026-07-08",
-  "reason": "daily_target_hit",
-  "lock_time_utc": "02:01",
-  "day_pnl_pct": 10.34,
-  "locked_equity": 563.39,
-  "nolock_equity": 622.95,
-  "lock_saved": -59.56,
+  "asof": "2026-07-09T04:00:08Z",
+  "day": 20643,
+  "date": "2026-07-09",
+  "reason": "daily_floor_hit",
+  "lock_time_utc": "03:45",
+  "day_pnl_pct": -5.0,
+  "locked_equity": 535.21,
+  "nolock_equity": 533.85,
+  "lock_saved": 1.36,
   "trades": [
     {
-      "coin": "AVAX",
-      "dir": "SHORT",
-      "exit": "momentum",
-      "pnl": 3.65
-    },
-    {
-      "coin": "SOL",
-      "dir": "SHORT",
-      "exit": "momentum",
-      "pnl": 7.77
-    },
-    {
-      "coin": "ADA",
-      "dir": "SHORT",
-      "exit": "momentum",
-      "pnl": 14.04
-    },
-    {
-      "coin": "ETH",
-      "dir": "SHORT",
-      "exit": "stop",
-      "pnl": -1.01
-    },
-    {
-      "coin": "DOGE",
-      "dir": "SHORT",
-      "exit": "momentum",
-      "pnl": 21.14
-    },
-    {
-      "coin": "BTC",
-      "dir": "SHORT",
-      "exit": "stop",
-      "pnl": -1.03
-    },
-    {
-      "coin": "kPEPE",
+      "coin": "XLM",
       "dir": "SHORT",
       "exit": "open",
-      "pnl": 1.26
-    },
-    {
-      "coin": "NEAR",
-      "dir": "SHORT",
-      "exit": "open",
-      "pnl": -7.71
-    },
-    {
-      "coin": "BTC",
-      "dir": "SHORT",
-      "exit": "open",
-      "pnl": 21.45
+      "pnl": -1.36
     }
   ]
 }
