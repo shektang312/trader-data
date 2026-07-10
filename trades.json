@@ -1,20 +1,20 @@
 {
   "trades": [
     {
-      "id": "trade-1783641646263",
-      "coin": "TAO",
+      "id": "trade-1783641662144",
+      "coin": "BTC",
       "direction": "LONG",
       "leverage": 5,
-      "size": 1.484,
-      "entryPrice": 214.874,
+      "size": 0.00504,
+      "entryPrice": 63222.0,
       "exitPrice": null,
-      "openedAt": "2026-07-10T00:00:46Z",
+      "openedAt": "2026-07-10T00:01:02Z",
       "closedAt": null,
       "pnlUsd": null,
       "pnlPct": null,
       "status": "open",
       "signal": "confluence",
-      "confidence": 90,
+      "confidence": 84,
       "testnet": false
     },
     {
