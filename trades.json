@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1783657905312",
+      "coin": "DOGE",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 4366.0,
+      "entryPrice": 0.073901,
+      "exitPrice": null,
+      "openedAt": "2026-07-10T04:31:45Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "ema_stack_bull",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1783641673240",
       "coin": "ZEC",
       "direction": "LONG",
