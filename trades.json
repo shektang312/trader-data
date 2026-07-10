@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1783641646263",
+      "coin": "TAO",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 1.484,
+      "entryPrice": 214.874,
+      "exitPrice": null,
+      "openedAt": "2026-07-10T00:00:46Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "confluence",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1783557948573",
       "coin": "XLM",
       "direction": "SHORT",
