@@ -119,6 +119,24 @@
           "pnl": -45.07
         }
       ]
+    },
+    {
+      "day": 20643,
+      "date": "2026-07-09",
+      "reason": "daily_floor_hit",
+      "lock_time_utc": "03:45",
+      "day_pnl_pct": -5.0,
+      "locked_equity": 535.21,
+      "nolock_equity": 505.06,
+      "lock_saved": 30.15,
+      "trades": [
+        {
+          "coin": "XLM",
+          "dir": "SHORT",
+          "exit": "day_end_mark",
+          "pnl": -30.15
+        }
+      ]
     }
   ]
 }
