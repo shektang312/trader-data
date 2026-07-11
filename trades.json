@@ -100,12 +100,7 @@
       "status": "closed",
       "signal": "breakdown",
       "confidence": 90,
-      "testnet": true,
-      "notes": {
-        "hypothesis": "BTC short at day-open \u2014 scan flagged bearish short-term setup. Entered at 61441 with 8% SL. Part of a 3-position stack opened at midnight UTC Jul 9.",
-        "exitReason": "Closed after 37 minutes at 61720 (-$5.81). BTC moved against the short (+0.45%) and the daily floor (-5%) was hit during this session, triggering a full flatten of all positions.",
-        "learnings": "Short BTC with 3 concurrent positions in a bear sequence was too correlated \u2014 when the floor hit and all positions were flattened, BTC was still early in the trade. Consider whether opening 3 shorts simultaneously after two consecutive locked days is chasing; may need to wait for a cleaner setup after a locked day."
-      }
+      "testnet": true
     },
     {
       "id": "trade-1783555267167",
@@ -122,7 +117,12 @@
       "status": "closed",
       "signal": "breakdown",
       "confidence": 81,
-      "testnet": true
+      "testnet": true,
+      "notes": {
+        "hypothesis": "SUI short entered simultaneously with BTC and a third position at midnight UTC Jul 9 \u2014 scan showed bearish setup. Entered at 0.7106.",
+        "exitReason": "Closed at 03:45 UTC (3h45m) by the daily overlay flatten when the -5% floor was hit. SUI had moved against the short to 0.7187 (+1.1%), contributing to the daily loss.",
+        "learnings": "SUI and BTC both went against us on this day \u2014 three correlated shorts losing at the same time is what the -5% floor is designed to stop. The floor did its job. Lesson: three simultaneous shorts is essentially one big leveraged bearish bet; if the market reverses, all three lose together."
+      }
     },
     {
       "id": "trade-1783468844747",
