@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1783810015048",
+      "coin": "XLM",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 1721.0,
+      "entryPrice": 0.19102,
+      "exitPrice": null,
+      "openedAt": "2026-07-11T22:46:55Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "ema-stack-rsi",
+      "confidence": 84,
+      "testnet": false
+    },
+    {
       "id": "trade-1783693927163",
       "coin": "ZEC",
       "direction": "LONG",
@@ -15,12 +32,7 @@
       "status": "open",
       "signal": "ema-stack-trend",
       "confidence": 90,
-      "testnet": false,
-      "notes": {
-        "hypothesis": "ZEC LONG on bullish 1h EMA stack + momentum; high-beta alt breaking higher, rode it for a swing move.",
-        "exitReason": "Momentum exit: price ran to $522.26 (+2.71% fav) then manage flagged 15m momentum rollover, banked the move instead of waiting for the +20% TP.",
-        "learnings": "Trailing/momentum system worked as designed \u2014 captured ~+$8.6 on a modest move. Confirms the active-management edge over passive TP/SL waiting."
-      }
+      "testnet": false
     },
     {
       "id": "trade-1783667862540",
