@@ -15,7 +15,12 @@
       "status": "open",
       "signal": "ema-stack-trend",
       "confidence": 90,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "ZEC LONG on bullish 1h EMA stack + momentum; high-beta alt breaking higher, rode it for a swing move.",
+        "exitReason": "Momentum exit: price ran to $522.26 (+2.71% fav) then manage flagged 15m momentum rollover, banked the move instead of waiting for the +20% TP.",
+        "learnings": "Trailing/momentum system worked as designed \u2014 captured ~+$8.6 on a modest move. Confirms the active-management edge over passive TP/SL waiting."
+      }
     },
     {
       "id": "trade-1783667862540",
