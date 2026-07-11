@@ -41,15 +41,20 @@
       "leverage": 5,
       "size": 4366.0,
       "entryPrice": 0.073901,
-      "exitPrice": 0.075156,
+      "exitPrice": null,
       "openedAt": "2026-07-10T04:31:45Z",
-      "closedAt": "2026-07-11T16:31:41Z",
-      "pnlUsd": 5.4793,
-      "pnlPct": 1.6982,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "ema_stack_bull",
       "confidence": 90,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "DOGE LONG on strong 1h EMA stack + rising EMA21 + bullish RSI(74) confluence, conf 90 \u2014 high-beta alt breakout continuation.",
+        "exitReason": "Momentum exit by manage-all: in profit (+1.7%), price rolled under 15m EMA, banked the move rather than waiting for the far +20% TP.",
+        "learnings": "Active mgmt did its job \u2014 captured +$5.48 on a modest move. Record had to be finalized manually: current_trade.json was empty so the momentum-exit path left the dashboard entry marked open. Worth checking why current_trade wasn't persisted at entry."
+      }
     },
     {
       "id": "trade-1783641673240",
