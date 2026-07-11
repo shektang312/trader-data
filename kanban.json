@@ -8,7 +8,16 @@
     {
       "id": "col-todo",
       "title": "Todo",
-      "cards": []
+      "cards": [
+        {
+          "id": "card-1783752200350",
+          "title": "New item",
+          "description": "",
+          "images": [],
+          "createdAt": "2026-07-11T06:43:20.350Z",
+          "updatedAt": "2026-07-11T06:43:20.350Z"
+        }
+      ]
     },
     {
       "id": "col-inprogress",
