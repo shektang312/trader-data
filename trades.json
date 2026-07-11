@@ -134,7 +134,12 @@
       "pnlUsd": 47.3334,
       "pnlPct": 3.8071,
       "status": "closed",
-      "closedAt": "2026-07-08T02:01:14Z"
+      "closedAt": "2026-07-08T02:01:14Z",
+      "notes": {
+        "hypothesis": "AVAX showed strong bearish momentum at day-open \u2014 EMA9/21/50 stack pointing down on 1h, price breaking below EMA50, MACD crossing bearish. High-confidence short entry.",
+        "exitReason": "Momentum exit / trailing stop tightened as AVAX dropped 3.8% in 2 hours. Closed at 6.4282 vs entry 6.6826, banking +$47.33. This trade was likely what pushed the day over the +10% target, triggering the overlay flatten.",
+        "learnings": "This was the best trade of the cluster \u2014 size + speed. The 2-hour hold with a 3.8% move is what the strategy is designed to capture. The daily target kicking in right after this close is the system working correctly."
+      }
     },
     {
       "id": "trade-1783409446321",
@@ -151,12 +156,7 @@
       "exitPrice": 0.176052,
       "closedAt": "2026-07-07T14:45:07Z",
       "pnlUsd": 26.3483,
-      "pnlPct": 5.724,
-      "notes": {
-        "hypothesis": "ADA showed bearish EMA stack on 1h with RSI divergence \u2014 short setup with moderate confidence; entered near day-open when price was rolling under EMA21.",
-        "exitReason": "Closed by daily overlay flatten when the daily +10% target was hit at ~15:17 UTC. Exited at 0.1761 vs entry 0.1803 \u2014 price moved 2.4% in our favour over 7h, banking +$26.35.",
-        "learnings": "Good disciplined short that worked. The daily flatten cut the trade early (TP was at 0.1442) but locking in gains when the daily target is hit is the right call \u2014 don't get greedy chasing the full TP at risk of reversal."
-      }
+      "pnlPct": 5.724
     },
     {
       "id": "trade-1783397778516",
