@@ -151,7 +151,12 @@
       "exitPrice": 0.176052,
       "closedAt": "2026-07-07T14:45:07Z",
       "pnlUsd": 26.3483,
-      "pnlPct": 5.724
+      "pnlPct": 5.724,
+      "notes": {
+        "hypothesis": "ADA showed bearish EMA stack on 1h with RSI divergence \u2014 short setup with moderate confidence; entered near day-open when price was rolling under EMA21.",
+        "exitReason": "Closed by daily overlay flatten when the daily +10% target was hit at ~15:17 UTC. Exited at 0.1761 vs entry 0.1803 \u2014 price moved 2.4% in our favour over 7h, banking +$26.35.",
+        "learnings": "Good disciplined short that worked. The daily flatten cut the trade early (TP was at 0.1442) but locking in gains when the daily target is hit is the right call \u2014 don't get greedy chasing the full TP at risk of reversal."
+      }
     },
     {
       "id": "trade-1783397778516",
