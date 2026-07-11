@@ -100,7 +100,12 @@
       "status": "closed",
       "signal": "breakdown",
       "confidence": 90,
-      "testnet": true
+      "testnet": true,
+      "notes": {
+        "hypothesis": "BTC short at day-open \u2014 scan flagged bearish short-term setup. Entered at 61441 with 8% SL. Part of a 3-position stack opened at midnight UTC Jul 9.",
+        "exitReason": "Closed after 37 minutes at 61720 (-$5.81). BTC moved against the short (+0.45%) and the daily floor (-5%) was hit during this session, triggering a full flatten of all positions.",
+        "learnings": "Short BTC with 3 concurrent positions in a bear sequence was too correlated \u2014 when the floor hit and all positions were flattened, BTC was still early in the trade. Consider whether opening 3 shorts simultaneously after two consecutive locked days is chasing; may need to wait for a cleaner setup after a locked day."
+      }
     },
     {
       "id": "trade-1783555267167",
@@ -134,12 +139,7 @@
       "pnlUsd": 47.3334,
       "pnlPct": 3.8071,
       "status": "closed",
-      "closedAt": "2026-07-08T02:01:14Z",
-      "notes": {
-        "hypothesis": "AVAX showed strong bearish momentum at day-open \u2014 EMA9/21/50 stack pointing down on 1h, price breaking below EMA50, MACD crossing bearish. High-confidence short entry.",
-        "exitReason": "Momentum exit / trailing stop tightened as AVAX dropped 3.8% in 2 hours. Closed at 6.4282 vs entry 6.6826, banking +$47.33. This trade was likely what pushed the day over the +10% target, triggering the overlay flatten.",
-        "learnings": "This was the best trade of the cluster \u2014 size + speed. The 2-hour hold with a 3.8% move is what the strategy is designed to capture. The daily target kicking in right after this close is the system working correctly."
-      }
+      "closedAt": "2026-07-08T02:01:14Z"
     },
     {
       "id": "trade-1783409446321",
