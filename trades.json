@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1783883789082",
+      "coin": "kPEPE",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 115123.0,
+      "entryPrice": 0.002805,
+      "exitPrice": null,
+      "openedAt": "2026-07-12T19:16:29Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "confluence",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1783858543212",
       "coin": "SUI",
       "direction": "LONG",
@@ -24,12 +41,12 @@
       "leverage": 5,
       "size": 0.6,
       "entryPrice": 525.87,
-      "exitPrice": 541.84,
+      "exitPrice": null,
       "openedAt": "2026-07-12T09:45:43Z",
-      "closedAt": "2026-07-12T19:15:17Z",
-      "pnlUsd": 9.582,
-      "pnlPct": 3.0369,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "emastack",
       "confidence": 90,
       "testnet": false
