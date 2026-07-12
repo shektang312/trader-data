@@ -7,15 +7,20 @@
       "leverage": 5,
       "size": 423.5,
       "entryPrice": 0.74533,
-      "exitPrice": 0.73579,
+      "exitPrice": null,
       "openedAt": "2026-07-12T12:15:43Z",
-      "closedAt": "2026-07-12T23:00:45Z",
-      "pnlUsd": -4.0402,
-      "pnlPct": -1.28,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "ema-stack",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Opened LONG on a bullish 1h EMA stack + confluence signal (conf-driven day-trade setup).",
+        "exitReason": "Manual early exit: TA flipped hard to SHORT conf 78 (bearish 1h EMA stack, price<EMA50, MACD-). Thesis broken while position ~-1.2%, so cut before it rode to the -8% stop.",
+        "learnings": "Discipline win \u2014 closing on a confirmed signal flip banked a small loss instead of a full stop-out. Watch for chop: ETH/SUI both stalled below EMA50 today."
+      }
     },
     {
       "id": "trade-1783849543591",
