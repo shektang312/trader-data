@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1783815357045",
+      "coin": "AVAX",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 49.02,
+      "entryPrice": 6.4473,
+      "exitPrice": null,
+      "openedAt": "2026-07-12T00:15:57Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "breakdown",
+      "confidence": 97,
+      "testnet": false
+    },
+    {
       "id": "trade-1783814594681",
       "coin": "SOL",
       "direction": "SHORT",
