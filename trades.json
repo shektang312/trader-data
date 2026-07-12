@@ -1,23 +1,6 @@
 {
   "trades": [
     {
-      "id": "trade-1783883789082",
-      "coin": "kPEPE",
-      "direction": "LONG",
-      "leverage": 5,
-      "size": 115123.0,
-      "entryPrice": 0.002805,
-      "exitPrice": null,
-      "openedAt": "2026-07-12T19:16:29Z",
-      "closedAt": null,
-      "pnlUsd": null,
-      "pnlPct": null,
-      "status": "open",
-      "signal": "confluence",
-      "confidence": 90,
-      "testnet": false
-    },
-    {
       "id": "trade-1783858543212",
       "coin": "SUI",
       "direction": "LONG",
@@ -49,7 +32,12 @@
       "status": "open",
       "signal": "emastack",
       "confidence": 90,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "kPEPE-style trend-continuation long on ZEC: 1h EMA stack bullish (9>21>50), price>EMA50, RSI 72, EMA21 rising +1.65% \u2014 strong confluence at conf 84.",
+        "exitReason": "Momentum exit at 541.84 \u2014 deterministic manage-all triggered when 15m momentum rolled over while +3.04% in profit.",
+        "learnings": "Banked +$9.58 instead of round-tripping. Momentum exit did its job on a winner; entry confluence held up."
+      }
     },
     {
       "id": "trade-1783820738955",
