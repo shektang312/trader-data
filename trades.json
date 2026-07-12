@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1783814594681",
+      "coin": "SOL",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 4.11,
+      "entryPrice": 76.785,
+      "exitPrice": null,
+      "openedAt": "2026-07-12T00:03:14Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "ema-stack-breakdown",
+      "confidence": 97,
+      "testnet": false
+    },
+    {
       "id": "trade-1783810015048",
       "coin": "XLM",
       "direction": "LONG",
@@ -15,12 +32,7 @@
       "status": "open",
       "signal": "ema-stack-rsi",
       "confidence": 84,
-      "testnet": false,
-      "notes": {
-        "hypothesis": "Long entry on XLM ema-stack + RSI setup (conf 84) \u2014 1h EMA(9>21>50) bullish stack with momentum.",
-        "exitReason": "Cut early: 1h signal flipped hard to SHORT (conf 76) \u2014 price broke below EMA50, RSI 32, MACD negative, 15m breakdown on volume. Thesis invalidated before stop hit.",
-        "learnings": "Exited a broken long at -2.7% (~-$8.4) rather than riding to the -8% stop. Correlated breakdown across held alts (TAO/XLM both flipped together) confirms crypto beta risk of stacking same-direction longs."
-      }
+      "testnet": false
     },
     {
       "id": "trade-1783693927163",
