@@ -1,6 +1,22 @@
 {
   "trades": [
     {
+      "id": "trade-1783884160000",
+      "coin": "kPEPE",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 115123.0,
+      "entryPrice": 0.002805,
+      "exitPrice": null,
+      "openedAt": "2026-07-12T19:16:00Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "testnet": false,
+      "notes": {}
+    },
+    {
       "id": "trade-1783903542376",
       "coin": "DOGE",
       "direction": "SHORT",
@@ -41,12 +57,12 @@
       "leverage": 5,
       "size": 423.5,
       "entryPrice": 0.74533,
-      "exitPrice": 0.73597,
+      "exitPrice": null,
       "openedAt": "2026-07-12T12:15:43Z",
-      "closedAt": "2026-07-12T23:00:00Z",
-      "pnlUsd": -3.964,
-      "pnlPct": -6.2791,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "ema-stack",
       "confidence": 84,
       "testnet": false
