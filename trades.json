@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1783922445965",
+      "coin": "ETH",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 0.179,
+      "entryPrice": 1782.11,
+      "exitPrice": null,
+      "openedAt": "2026-07-13T06:00:45Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "ema-stack-bearish",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1783915366219",
       "coin": "BTC",
       "direction": "SHORT",
@@ -88,12 +105,12 @@
       "leverage": 5,
       "size": 4360.0,
       "entryPrice": 0.073151,
-      "exitPrice": 0.0723,
+      "exitPrice": null,
       "openedAt": "2026-07-13T00:45:42Z",
-      "closedAt": "2026-07-13T06:00:23Z",
-      "pnlUsd": 3.6973,
-      "pnlPct": 1.1592,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "macd",
       "confidence": 84,
       "testnet": false
