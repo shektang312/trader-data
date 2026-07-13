@@ -1,23 +1,6 @@
 {
   "trades": [
     {
-      "id": "trade-1783919752435",
-      "coin": "SOL",
-      "direction": "SHORT",
-      "leverage": 5,
-      "size": 4.2,
-      "entryPrice": 76.2447,
-      "exitPrice": null,
-      "openedAt": "2026-07-13T05:15:52Z",
-      "closedAt": null,
-      "pnlUsd": null,
-      "pnlPct": null,
-      "status": "open",
-      "signal": "ema-stack-bearish",
-      "confidence": 90,
-      "testnet": false
-    },
-    {
       "id": "trade-1783915366219",
       "coin": "BTC",
       "direction": "SHORT",
@@ -130,7 +113,12 @@
       "status": "open",
       "signal": "confluence",
       "confidence": 90,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "1h EMA stack bearish (9<21<50), price below EMA50, RSI(26) \u2014 high-confidence (84) short in a market-wide downtrend.",
+        "exitReason": "Momentum exit: in +1.17% profit, 15m momentum rolled and manage engine banked it at 0.15981 rather than risk a round-trip to the trailed stop.",
+        "learnings": "Active-management working as designed \u2014 took a clean partial-swing win. Whole universe was one-way short today; correlation means BTC/DOGE/SOL shorts are effectively one bet, so the daily overlay is the real risk cap."
+      }
     },
     {
       "id": "trade-1783858543212",
