@@ -39,14 +39,18 @@
       "leverage": 5,
       "size": 115123.0,
       "entryPrice": 0.002805,
-      "exitPrice": 0.002724,
-      "pnlUsd": -9.325,
-      "pnlPct": -2.8877,
+      "exitPrice": null,
+      "pnlUsd": null,
+      "pnlPct": null,
       "openedAt": "2026-07-12T19:16:00Z",
-      "closedAt": "2026-07-13T04:01:25Z",
-      "status": "closed",
+      "closedAt": null,
+      "status": "open",
       "testnet": false,
-      "notes": {}
+      "notes": {
+        "hypothesis": "Opened kPEPE LONG on a 15m breakout signal; expected continuation with the alt bid.",
+        "exitReason": "Thesis flip \u2014 analyze re-scored kPEPE SHORT conf 90 (full bearish 1h EMA stack, price<EMA50, RSI 41, MACD-). Cut the losing long early rather than ride it to the -8% stop.",
+        "learnings": "Cutting on a hard confluence flip beat waiting: exited -2.9% vs a -8% stop. Confirms the active-mgmt edge \u2014 don't marry a losing long when the trend stack inverts."
+      }
     },
     {
       "id": "trade-1783711800000",
