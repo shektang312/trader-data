@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1783903542376",
+      "coin": "DOGE",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 4360.0,
+      "entryPrice": 0.073151,
+      "exitPrice": null,
+      "openedAt": "2026-07-13T00:45:42Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "macd",
+      "confidence": 84,
+      "testnet": false
+    },
+    {
       "id": "trade-1783897323872",
       "coin": "ADA",
       "direction": "SHORT",
