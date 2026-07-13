@@ -1,23 +1,6 @@
 {
   "trades": [
     {
-      "id": "trade-1783981843959",
-      "coin": "SUI",
-      "direction": "SHORT",
-      "leverage": 5,
-      "size": 442.3,
-      "entryPrice": 0.71458,
-      "exitPrice": null,
-      "openedAt": "2026-07-13T22:30:43Z",
-      "closedAt": null,
-      "pnlUsd": null,
-      "pnlPct": null,
-      "status": "open",
-      "signal": "ema-stack-bearish",
-      "confidence": 90,
-      "testnet": false
-    },
-    {
       "id": "trade-1783980090920",
       "coin": "ZEC",
       "direction": "SHORT",
@@ -83,7 +66,12 @@
       "status": "open",
       "signal": "confluence",
       "confidence": 90,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Bearish 1h EMA-stack short (9<21<50, price<EMA50, RSI35, MACD hist negative) on BTC \u2014 broad-market downtrend confluence.",
+        "exitReason": "Momentum exit via manage-all: price fell +1.08% in our favor then rolled back under the 15m EMA while green, banking ~+$3.47 rather than risking a round-trip to stop.",
+        "learnings": "Active mgmt did its job \u2014 momentum exit captured a modest winner in a choppy tape. Confirms the mechanical exit edge vs passively waiting for the far +20% TP."
+      }
     },
     {
       "id": "trade-1752192000000",
