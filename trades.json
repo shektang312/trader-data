@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1783919752435",
+      "coin": "SOL",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 4.2,
+      "entryPrice": 76.2447,
+      "exitPrice": null,
+      "openedAt": "2026-07-13T05:15:52Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "ema-stack-bearish",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1783915366219",
       "coin": "BTC",
       "direction": "SHORT",
@@ -105,12 +122,12 @@
       "leverage": 5,
       "size": 1958.0,
       "entryPrice": 0.1617,
-      "exitPrice": 0.15981,
+      "exitPrice": null,
       "openedAt": "2026-07-12T23:02:03Z",
-      "closedAt": "2026-07-13T05:15:24Z",
-      "pnlUsd": 3.7006,
-      "pnlPct": 1.1688,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "confluence",
       "confidence": 90,
       "testnet": false
