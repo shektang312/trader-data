@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1783915333814",
+      "coin": "BTC",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 0.00514,
+      "entryPrice": 62822.3,
+      "exitPrice": null,
+      "openedAt": "2026-07-13T04:02:13Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "confluence",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1752192000000",
       "coin": "TAO",
       "direction": "LONG",
@@ -46,11 +63,7 @@
       "closedAt": null,
       "status": "open",
       "testnet": false,
-      "notes": {
-        "hypothesis": "Opened kPEPE LONG on a 15m breakout signal; expected continuation with the alt bid.",
-        "exitReason": "Thesis flip \u2014 analyze re-scored kPEPE SHORT conf 90 (full bearish 1h EMA stack, price<EMA50, RSI 41, MACD-). Cut the losing long early rather than ride it to the -8% stop.",
-        "learnings": "Cutting on a hard confluence flip beat waiting: exited -2.9% vs a -8% stop. Confirms the active-mgmt edge \u2014 don't marry a losing long when the trend stack inverts."
-      }
+      "notes": {}
     },
     {
       "id": "trade-1783711800000",
