@@ -1,18 +1,18 @@
 {
   "trades": [
     {
-      "id": "trade-1783884160000",
-      "coin": "kPEPE",
+      "id": "trade-1752278461000",
+      "coin": "BTC",
       "direction": "LONG",
       "leverage": 5,
-      "size": 115123.0,
-      "entryPrice": 0.002805,
-      "exitPrice": null,
-      "pnlUsd": null,
-      "pnlPct": null,
-      "openedAt": "2026-07-12T19:16:00Z",
-      "closedAt": null,
-      "status": "open",
+      "size": 0.00504,
+      "entryPrice": 63222.0,
+      "exitPrice": 63887.0,
+      "pnlUsd": 3.3516,
+      "pnlPct": 5.2592,
+      "openedAt": "2026-07-10T00:01:00Z",
+      "closedAt": "2026-07-10T07:16:00Z",
+      "status": "closed",
       "testnet": false,
       "notes": {}
     },
