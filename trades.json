@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1783981843959",
+      "coin": "SUI",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 442.3,
+      "entryPrice": 0.71458,
+      "exitPrice": null,
+      "openedAt": "2026-07-13T22:30:43Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "ema-stack-bearish",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1783980090920",
       "coin": "ZEC",
       "direction": "SHORT",
