@@ -1,17 +1,17 @@
 {
   "trades": [
     {
-      "id": "trade-1752278461000",
-      "coin": "BTC",
+      "id": "trade-1752192000000",
+      "coin": "TAO",
       "direction": "LONG",
       "leverage": 5,
-      "size": 0.00504,
-      "entryPrice": 63222.0,
-      "exitPrice": 63887.0,
-      "pnlUsd": 3.3516,
-      "pnlPct": 5.2592,
-      "openedAt": "2026-07-10T00:01:00Z",
-      "closedAt": "2026-07-10T07:16:00Z",
+      "size": 1.484,
+      "entryPrice": 214.88,
+      "exitPrice": 207.38,
+      "pnlUsd": -11.1218,
+      "pnlPct": -17.4387,
+      "openedAt": "2026-07-10T00:00:00Z",
+      "closedAt": "2026-07-12T00:01:00Z",
       "status": "closed",
       "testnet": false,
       "notes": {}
