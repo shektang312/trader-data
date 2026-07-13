@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1783956649161",
+      "coin": "NEAR",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 164.1,
+      "entryPrice": 1.947,
+      "exitPrice": null,
+      "openedAt": "2026-07-13T15:30:49Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "confluence",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1783922445965",
       "coin": "ETH",
       "direction": "SHORT",
