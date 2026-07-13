@@ -1,14 +1,14 @@
 {
   "trades": [
     {
-      "id": "trade-1783915333814",
+      "id": "trade-1783915366219",
       "coin": "BTC",
       "direction": "SHORT",
       "leverage": 5,
       "size": 0.00514,
       "entryPrice": 62822.3,
       "exitPrice": null,
-      "openedAt": "2026-07-13T04:02:13Z",
+      "openedAt": "2026-07-13T04:02:46Z",
       "closedAt": null,
       "pnlUsd": null,
       "pnlPct": null,
