@@ -1,20 +1,26 @@
 {
   "active": true,
-  "asof": "2026-07-09T23:45:06Z",
-  "day": 20643,
-  "date": "2026-07-09",
+  "asof": "2026-07-14T13:15:03Z",
+  "day": 20648,
+  "date": "2026-07-14",
   "reason": "daily_floor_hit",
-  "lock_time_utc": "03:45",
-  "day_pnl_pct": -5.0,
-  "locked_equity": 535.21,
-  "nolock_equity": 505.06,
-  "lock_saved": 30.15,
+  "lock_time_utc": "13:00",
+  "day_pnl_pct": -5.45,
+  "locked_equity": 471.44,
+  "nolock_equity": 468.1,
+  "lock_saved": 3.34,
   "trades": [
     {
-      "coin": "XLM",
+      "coin": "NEAR",
+      "dir": "LONG",
+      "exit": "open",
+      "pnl": -1.61
+    },
+    {
+      "coin": "ZEC",
       "dir": "SHORT",
       "exit": "open",
-      "pnl": -30.15
+      "pnl": -1.73
     }
   ]
 }
