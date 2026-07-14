@@ -1,14 +1,14 @@
 {
   "trades": [
     {
-      "id": "trade-1784070057477",
-      "coin": "ZEC",
+      "id": "trade-1784070068288",
+      "coin": "ADA",
       "direction": "LONG",
       "leverage": 5,
-      "size": 0.53,
-      "entryPrice": 557.16,
+      "size": 1786.0,
+      "entryPrice": 0.16455,
       "exitPrice": null,
-      "openedAt": "2026-07-14T23:00:57Z",
+      "openedAt": "2026-07-14T23:01:08Z",
       "closedAt": null,
       "pnlUsd": null,
       "pnlPct": null,
