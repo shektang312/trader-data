@@ -1,14 +1,14 @@
 {
   "active": true,
-  "asof": "2026-07-14T15:15:01Z",
+  "asof": "2026-07-14T15:30:03Z",
   "day": 20648,
   "date": "2026-07-14",
   "reason": "daily_floor_hit",
   "lock_time_utc": "13:00",
   "day_pnl_pct": -5.45,
   "locked_equity": 471.44,
-  "nolock_equity": 466.8,
-  "lock_saved": 4.64,
+  "nolock_equity": 468.26,
+  "lock_saved": 3.18,
   "trades": [
     {
       "coin": "ZEC",
@@ -20,7 +20,7 @@
       "coin": "NEAR",
       "dir": "LONG",
       "exit": "open",
-      "pnl": 1.21
+      "pnl": 2.67
     }
   ]
 }
