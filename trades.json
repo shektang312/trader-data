@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1783989940016",
+      "coin": "SOL",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 4.13,
+      "entryPrice": 75.084,
+      "exitPrice": null,
+      "openedAt": "2026-07-14T00:45:40Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "ema-stack-bearish",
+      "confidence": 84,
+      "testnet": false
+    },
+    {
       "id": "trade-1783980090920",
       "coin": "ZEC",
       "direction": "SHORT",
