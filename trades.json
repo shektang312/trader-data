@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1784126822007",
+      "coin": "ADA",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 1830.0,
+      "entryPrice": 0.1658,
+      "exitPrice": null,
+      "openedAt": "2026-07-15T14:47:02Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "confluence",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1784076354238",
       "coin": "ZEC",
       "direction": "LONG",
@@ -15,12 +32,7 @@
       "status": "open",
       "signal": "trend-stack",
       "confidence": 90,
-      "testnet": false,
-      "notes": {
-        "hypothesis": "1h EMA stack bullish, price>EMA50, RSI 71, EMA21 rising +2%; entered ZEC LONG on trend-continuation confluence.",
-        "exitReason": "Momentum exit \u2014 price rolled to +3.56% then manage-all's momentum reversal rule closed it at 577.46 for +$5.15.",
-        "learnings": "Deterministic momentum exit banked a clean winner instead of round-tripping to the trailing stop. Trend-continuation longs in this bull regime keep working; system discipline over discretion confirmed."
-      }
+      "testnet": false
     },
     {
       "id": "trade-1784070068288",
