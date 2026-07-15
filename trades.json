@@ -1,23 +1,6 @@
 {
   "trades": [
     {
-      "id": "trade-1784125859650",
-      "coin": "ETH",
-      "direction": "LONG",
-      "leverage": 5,
-      "size": 0.1582,
-      "entryPrice": 1928.4,
-      "exitPrice": null,
-      "openedAt": "2026-07-15T14:30:59Z",
-      "closedAt": null,
-      "pnlUsd": null,
-      "pnlPct": null,
-      "status": "open",
-      "signal": "ema_stack_bull",
-      "confidence": 90,
-      "testnet": false
-    },
-    {
       "id": "trade-1784076354238",
       "coin": "ZEC",
       "direction": "LONG",
@@ -49,7 +32,12 @@
       "status": "open",
       "signal": "confluence",
       "confidence": 90,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Long ADA on bullish 1h EMA stack confluence (9>21>50, price>EMA50, RSI bullish) flagged by scan at high confidence.",
+        "exitReason": "Momentum-exit in profit \u2014 manage-all detected 15m momentum reversal while green and banked the move (entry 0.16455 -> exit 0.16622).",
+        "learnings": "Mechanical momentum exit worked as designed: captured ~+1% (+$2.93) instead of round-tripping to the breakeven stop. Confirms the active-management edge over passive TP/SL waiting."
+      }
     },
     {
       "id": "trade-1784012478987",
