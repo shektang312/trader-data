@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1784132140748",
+      "coin": "BTC",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 0.00461,
+      "entryPrice": 65128.0,
+      "exitPrice": null,
+      "openedAt": "2026-07-15T16:15:40Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "emastack",
+      "confidence": 84,
+      "testnet": false
+    },
+    {
       "id": "trade-1784126822007",
       "coin": "ADA",
       "direction": "LONG",
