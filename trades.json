@@ -7,15 +7,20 @@
       "leverage": 5,
       "size": 0.53,
       "entryPrice": 557.5,
-      "exitPrice": 577.31,
+      "exitPrice": null,
       "openedAt": "2026-07-15T00:45:54Z",
-      "closedAt": "2026-07-15T14:45:21Z",
-      "pnlUsd": 5.1506,
-      "pnlPct": 3.5534,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "trend-stack",
       "confidence": 90,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "1h EMA stack bullish, price>EMA50, RSI 71, EMA21 rising +2%; entered ZEC LONG on trend-continuation confluence.",
+        "exitReason": "Momentum exit \u2014 price rolled to +3.56% then manage-all's momentum reversal rule closed it at 577.46 for +$5.15.",
+        "learnings": "Deterministic momentum exit banked a clean winner instead of round-tripping to the trailing stop. Trend-continuation longs in this bull regime keep working; system discipline over discretion confirmed."
+      }
     },
     {
       "id": "trade-1784070068288",
