@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1784125859650",
+      "coin": "ETH",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 0.1582,
+      "entryPrice": 1928.4,
+      "exitPrice": null,
+      "openedAt": "2026-07-15T14:30:59Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "ema_stack_bull",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1784076354238",
       "coin": "ZEC",
       "direction": "LONG",
@@ -24,12 +41,12 @@
       "leverage": 5,
       "size": 1786.0,
       "entryPrice": 0.16455,
-      "exitPrice": 0.16619,
+      "exitPrice": null,
       "openedAt": "2026-07-14T23:01:08Z",
-      "closedAt": "2026-07-15T14:30:21Z",
-      "pnlUsd": 2.929,
-      "pnlPct": 0.9967,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "confluence",
       "confidence": 90,
       "testnet": false
