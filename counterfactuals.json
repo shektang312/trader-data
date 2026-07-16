@@ -161,6 +161,30 @@
           "pnl": 0.62
         }
       ]
+    },
+    {
+      "day": 20650,
+      "date": "2026-07-16",
+      "reason": "daily_floor_hit",
+      "lock_time_utc": "13:30",
+      "day_pnl_pct": -5.11,
+      "locked_equity": 456.95,
+      "nolock_equity": 466.54,
+      "lock_saved": -9.59,
+      "trades": [
+        {
+          "coin": "TAO",
+          "dir": "SHORT",
+          "exit": "momentum",
+          "pnl": 5.2
+        },
+        {
+          "coin": "SOL",
+          "dir": "SHORT",
+          "exit": "day_end_mark",
+          "pnl": 4.39
+        }
+      ]
     }
   ]
 }
