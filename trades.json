@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1784201510335",
+      "coin": "TAO",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 1.475,
+      "entryPrice": 196.22,
+      "exitPrice": null,
+      "openedAt": "2026-07-16T11:31:50Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "emastack",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1784189851939",
       "coin": "SOL",
       "direction": "SHORT",
@@ -182,12 +199,12 @@
       "leverage": 5,
       "size": 0.179,
       "entryPrice": 1782.11,
-      "exitPrice": 1883.1,
+      "exitPrice": null,
       "openedAt": "2026-07-13T06:00:45Z",
-      "closedAt": "2026-07-16T11:30:35Z",
-      "pnlUsd": -7.1665,
-      "pnlPct": -2.3491,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "ema-stack-bearish",
       "confidence": 90,
       "testnet": false
