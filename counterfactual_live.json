@@ -1,26 +1,26 @@
 {
   "active": true,
-  "asof": "2026-07-16T14:45:01Z",
+  "asof": "2026-07-16T15:00:01Z",
   "day": 20650,
   "date": "2026-07-16",
   "reason": "daily_floor_hit",
   "lock_time_utc": "13:30",
   "day_pnl_pct": -5.11,
   "locked_equity": 456.95,
-  "nolock_equity": 455.53,
-  "lock_saved": 1.42,
+  "nolock_equity": 457.14,
+  "lock_saved": -0.19,
   "trades": [
     {
       "coin": "SOL",
       "dir": "SHORT",
       "exit": "open",
-      "pnl": -0.84
+      "pnl": -0.21
     },
     {
       "coin": "TAO",
       "dir": "SHORT",
       "exit": "open",
-      "pnl": -0.58
+      "pnl": 0.39
     }
   ]
 }
