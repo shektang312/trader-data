@@ -1,14 +1,14 @@
 {
   "trades": [
     {
-      "id": "trade-1784242839457",
-      "coin": "SOL",
+      "id": "trade-1784242852986",
+      "coin": "ADA",
       "direction": "SHORT",
       "leverage": 5,
-      "size": 3.79,
-      "entryPrice": 75.23,
+      "size": 1776.0,
+      "entryPrice": 0.1606,
       "exitPrice": null,
-      "openedAt": "2026-07-16T23:00:39Z",
+      "openedAt": "2026-07-16T23:00:52Z",
       "closedAt": null,
       "pnlUsd": null,
       "pnlPct": null,
