@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1784242839457",
+      "coin": "SOL",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 3.79,
+      "entryPrice": 75.23,
+      "exitPrice": null,
+      "openedAt": "2026-07-16T23:00:39Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "breakdown",
+      "confidence": 100,
+      "testnet": false
+    },
+    {
       "id": "trade-1784201510335",
       "coin": "TAO",
       "direction": "SHORT",
