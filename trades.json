@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1784189851939",
+      "coin": "SOL",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 3.85,
+      "entryPrice": 75.726,
+      "exitPrice": null,
+      "openedAt": "2026-07-16T08:17:31Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "breakdown",
+      "confidence": 89,
+      "testnet": false
+    },
+    {
       "id": "trade-1784187964574",
       "coin": "kPEPE",
       "direction": "SHORT",
@@ -49,12 +66,7 @@
       "status": "open",
       "signal": "confluence",
       "confidence": 90,
-      "testnet": false,
-      "notes": {
-        "hypothesis": "Opened LONG ADA on a bullish confluence setup (EMA stack + momentum).",
-        "exitReason": "Manual early cut: 1h/15m signal flipped hard SHORT (conf 76) \u2014 price broke below all EMAs with bearish RSI(43)/MACD and volume-confirmed 15m breakdown. Long thesis broken; cut at -2.8% rather than ride to the -8% stop.",
-        "learnings": "Cutting a broken-thesis loser early beats hoping for a bounce. Slight timing risk: 15m RSI was oversold (22) at exit, so a dead-cat bounce is possible, but trend structure clearly turned down. Discipline over hope."
-      }
+      "testnet": false
     },
     {
       "id": "trade-1784076354238",
