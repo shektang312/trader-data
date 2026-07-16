@@ -1,14 +1,14 @@
 {
   "trades": [
     {
-      "id": "trade-1784242852986",
-      "coin": "ADA",
+      "id": "trade-1784242865458",
+      "coin": "TAO",
       "direction": "SHORT",
       "leverage": 5,
-      "size": 1776.0,
-      "entryPrice": 0.1606,
+      "size": 1.483,
+      "entryPrice": 192.1,
       "exitPrice": null,
-      "openedAt": "2026-07-16T23:00:52Z",
+      "openedAt": "2026-07-16T23:01:05Z",
       "closedAt": null,
       "pnlUsd": null,
       "pnlPct": null,
