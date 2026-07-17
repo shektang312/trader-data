@@ -24,15 +24,20 @@
       "leverage": 5,
       "size": 0.00453,
       "entryPrice": 63077.0,
-      "exitPrice": 64224.0,
+      "exitPrice": null,
       "openedAt": "2026-07-17T09:46:08Z",
-      "closedAt": "2026-07-17T19:00:47Z",
-      "pnlUsd": -5.1959,
-      "pnlPct": -1.8184,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "confluence",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Confluence SHORT on BTC (conf 84) \u2014 bearish 1h EMA stack / momentum setup expecting continuation lower.",
+        "exitReason": "Manual early cut on hard signal flip: TA re-scored BTC to LONG conf 89 (15m breakout of recent high with volume confirmation, RSI 63, MACD+). Thesis invalidated, closed at 64224 vs 63077 entry, ~-$5.2.",
+        "learnings": "Respecting the signal flip and cutting a broken short beats letting it bleed toward the -8% stop. Shorts across BTC/ETH/NEAR were all offside as crypto bid up \u2014 correlation risk of 3 same-direction shorts showed up again."
+      }
     },
     {
       "id": "trade-1784280649570",
