@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1784281568040",
+      "coin": "BTC",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 0.00453,
+      "entryPrice": 63077.0,
+      "exitPrice": null,
+      "openedAt": "2026-07-17T09:46:08Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "confluence",
+      "confidence": 84,
+      "testnet": false
+    },
+    {
       "id": "trade-1784280649570",
       "coin": "NEAR",
       "direction": "SHORT",
