@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1784376159698",
+      "coin": "BTC",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 0.00436,
+      "entryPrice": 64108.0,
+      "exitPrice": null,
+      "openedAt": "2026-07-18T12:02:39Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "breakout",
+      "confidence": 83,
+      "testnet": false
+    },
+    {
       "id": "trade-1784314931239",
       "coin": "AVAX",
       "direction": "LONG",
@@ -15,12 +32,7 @@
       "status": "open",
       "signal": "confluence",
       "confidence": 89,
-      "testnet": false,
-      "notes": {
-        "hypothesis": "Opened AVAX LONG 2026-07-17 on a bullish confluence setup at 6.6041.",
-        "exitReason": "Signal flipped hard SHORT (conf 84): full 1h bearish EMA stack (9<21<50), price<EMA50, RSI 45, MACD negative. Cut early at 6.5421 while only -0.96% under, rather than let it bleed to the -8% stop.",
-        "learnings": "Discipline win \u2014 closing on a clean thesis-break beat waiting for the stop. AVAX rolled over with the broader tape; the long entry fought the emerging downtrend."
-      }
+      "testnet": false
     },
     {
       "id": "trade-1784296965304",
