@@ -7,15 +7,20 @@
       "leverage": 5,
       "size": 42.34,
       "entryPrice": 6.6041,
-      "exitPrice": 6.542,
+      "exitPrice": null,
       "openedAt": "2026-07-17T19:02:11Z",
-      "closedAt": "2026-07-18T12:00:51Z",
-      "pnlUsd": -2.6293,
-      "pnlPct": -0.9403,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "confluence",
       "confidence": 89,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Opened AVAX LONG 2026-07-17 on a bullish confluence setup at 6.6041.",
+        "exitReason": "Signal flipped hard SHORT (conf 84): full 1h bearish EMA stack (9<21<50), price<EMA50, RSI 45, MACD negative. Cut early at 6.5421 while only -0.96% under, rather than let it bleed to the -8% stop.",
+        "learnings": "Discipline win \u2014 closing on a clean thesis-break beat waiting for the stop. AVAX rolled over with the broader tape; the long entry fought the emerging downtrend."
+      }
     },
     {
       "id": "trade-1784296965304",
