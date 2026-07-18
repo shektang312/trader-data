@@ -41,15 +41,20 @@
       "leverage": 5,
       "size": 0.1555,
       "entryPrice": 1825.9,
-      "exitPrice": 1858.5,
+      "exitPrice": null,
       "openedAt": "2026-07-17T14:02:45Z",
-      "closedAt": "2026-07-18T18:30:40Z",
-      "pnlUsd": -5.0693,
-      "pnlPct": -1.7854,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "ema-stack-bearish",
       "confidence": 90,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Shorted ETH on a bearish setup expecting continuation lower below EMA stack.",
+        "exitReason": "Closed early \u2014 signal flipped hard LONG (conf 83): 15m breakout, 1h RSI 58/15m RSI 73, MACD+, price reclaiming EMA9/21/50. Short thesis broken.",
+        "learnings": "Correct to cut when the confluence engine flipped bullish rather than ride the -8% stop; booked ~-$5 instead of ~-$27. Active mgmt working as intended."
+      }
     },
     {
       "id": "trade-1784281568040",
