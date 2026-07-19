@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1784453442716",
+      "coin": "SUI",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 371.7,
+      "entryPrice": 0.74552,
+      "exitPrice": null,
+      "openedAt": "2026-07-19T09:30:42Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "ema-stack",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1784444484292",
       "coin": "TAO",
       "direction": "LONG",
