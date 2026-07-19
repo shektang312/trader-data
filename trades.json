@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1784424718174",
+      "coin": "ETH",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 0.1496,
+      "entryPrice": 1860.1,
+      "exitPrice": null,
+      "openedAt": "2026-07-19T01:31:58Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "trend",
+      "confidence": 84,
+      "testnet": false
+    },
+    {
       "id": "trade-1784399527498",
       "coin": "ZEC",
       "direction": "LONG",
@@ -32,12 +49,7 @@
       "status": "open",
       "signal": "breakout",
       "confidence": 83,
-      "testnet": false,
-      "notes": {
-        "hypothesis": "Scan flagged BTC LONG at conf 84 \u2014 bullish 1h EMA stack (9>21>50), price>EMA50, RSI 74, MACD hist+. Intraday trend-continuation long.",
-        "exitReason": "Momentum-reversal exit at +1.02% favorable (+$2.85): 15m rolled under EMA while in profit; mechanical manage banked the move rather than waiting for the far +20% TP.",
-        "learnings": "Trailing/momentum logic worked as designed \u2014 captured a small green move instead of round-tripping to stop. 1h stayed bullish, so BTC re-entered the scan top pick; avoided same-cycle whipsaw by taking a different coin."
-      }
+      "testnet": false
     },
     {
       "id": "trade-1784314931239",
