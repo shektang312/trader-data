@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1784444484292",
+      "coin": "TAO",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 1.399,
+      "entryPrice": 198.87,
+      "exitPrice": null,
+      "openedAt": "2026-07-19T07:01:24Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "breakout",
+      "confidence": 100,
+      "testnet": false
+    },
+    {
       "id": "trade-1784424718174",
       "coin": "ETH",
       "direction": "LONG",
@@ -109,12 +126,12 @@
       "leverage": 5,
       "size": 150.1,
       "entryPrice": 1.9094,
-      "exitPrice": 1.9384,
+      "exitPrice": null,
       "openedAt": "2026-07-17T09:30:49Z",
-      "closedAt": "2026-07-19T07:00:32Z",
-      "pnlUsd": -4.3529,
-      "pnlPct": -1.5188,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "trend-stack",
       "confidence": 90,
       "testnet": false
