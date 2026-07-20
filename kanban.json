@@ -30,16 +30,7 @@
     {
       "id": "col-inprogress",
       "title": "In Progress",
-      "cards": [
-        {
-          "id": "card-1784531026570",
-          "title": "Heading outline popover for navigating long notes",
-          "description": "Research: Craft ⭐1 caps notes at 20k chars; a user couldn't paste a 2-hour lecture transcript. Washi handles long notes but has no way to jump around them except ⌘⇧↑/↓. A lightweight outline popover (list of headings → click to scroll) helps long transcripts without adding a persistent panel.",
-          "images": [],
-          "createdAt": "2026-07-20T00:00:00.000Z",
-          "updatedAt": "2026-07-20T00:00:00.000Z"
-        }
-      ]
+      "cards": []
     },
     {
       "id": "col-review",
@@ -68,6 +59,14 @@
           "images": [],
           "createdAt": "2026-07-20T00:00:00.000Z",
           "updatedAt": "2026-07-20T08:01:52.826Z"
+        },
+        {
+          "id": "card-1784531026570",
+          "title": "Heading outline popover for navigating long notes",
+          "description": "Research: Craft ⭐1 caps notes at 20k chars; a user couldn't paste a 2-hour lecture transcript. Washi handles long notes but has no way to jump around them except ⌘⇧↑/↓. A lightweight outline popover (list of headings → click to scroll) helps long transcripts without adding a persistent panel.",
+          "images": [],
+          "createdAt": "2026-07-20T00:00:00.000Z",
+          "updatedAt": "2026-07-20T00:00:00.000Z"
         }
       ]
     },
