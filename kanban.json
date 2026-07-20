@@ -48,14 +48,6 @@
       "title": "In Progress",
       "cards": [
         {
-          "id": "card-1784531026567",
-          "title": "Materialize not-yet-downloaded iCloud notes on launch",
-          "description": "Research: sync anxiety / 'new device shows nothing' — Obsidian ⭐1 (Jun 2026) 'Does not load even in new phone', and the note-app research 'sync anxiety and data loss' section. reload() lists only visible .md files with .skipsHiddenFiles, so iCloud placeholder stubs (.<name>.md.icloud, hidden, not yet downloaded) are skipped and the app shows 'No Notes' or a partial list on a fresh device. Call startDownloadingUbiquitousItem for placeholders + not-current .md files, then re-read once they land. Invisible robustness, no config.",
-          "images": [],
-          "createdAt": "2026-07-20T00:00:00.000Z",
-          "updatedAt": "2026-07-20T07:04:01.216Z"
-        },
-        {
           "id": "card-1784531026568",
           "title": "Surface a 'downloading from iCloud' state in the sync indicator",
           "description": "Research priority #3: visible, trustworthy sync. checkSyncStatus() only inspects upload status; a note still downloading reads as empty yet the dot shows SYNCED. Add ubiquitousItemDownloadingStatus awareness so the indicator shows SYNCING while content is still arriving.",
@@ -68,7 +60,16 @@
     {
       "id": "col-review",
       "title": "Review",
-      "cards": []
+      "cards": [
+        {
+          "id": "card-1784531026567",
+          "title": "Materialize not-yet-downloaded iCloud notes on launch",
+          "description": "Research: sync anxiety / 'new device shows nothing' — Obsidian ⭐1 (Jun 2026) 'Does not load even in new phone', and the note-app research 'sync anxiety and data loss' section. reload() lists only visible .md files with .skipsHiddenFiles, so iCloud placeholder stubs (.<name>.md.icloud, hidden, not yet downloaded) are skipped and the app shows 'No Notes' or a partial list on a fresh device. Call startDownloadingUbiquitousItem for placeholders + not-current .md files, then re-read once they land. Invisible robustness, no config.",
+          "images": [],
+          "createdAt": "2026-07-20T00:00:00.000Z",
+          "updatedAt": "2026-07-20T07:05:25.855Z"
+        }
+      ]
     },
     {
       "id": "col-done",
