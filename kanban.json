@@ -43,6 +43,15 @@
           "comments": [],
           "createdAt": "2026-07-20T11:04:33.153Z",
           "updatedAt": "2026-07-20T11:04:34.386Z"
+        },
+        {
+          "id": "card-1784545482310",
+          "title": "Remember scroll/cursor position per note when reopening long notes",
+          "description": "",
+          "images": [],
+          "comments": [],
+          "createdAt": "2026-07-20T11:04:42.310Z",
+          "updatedAt": "2026-07-20T11:04:42.310Z"
         }
       ]
     },
