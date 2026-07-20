@@ -20,11 +20,11 @@
         {
           "id": "card-1784545440946",
           "title": "Relevance-rank search results (title matches first, then body, then image OCR)",
-          "description": "",
+          "description": "Research: find it instantly months later is called THE killer feature (u/Fun_Shine8720); 2026 market data names open->write->find-later as the biggest unmet need. SidebarView.filteredNotes and QuickSwitcherView.results do plain substring .contains in modified-date order, so an exact title match can rank below recent notes with an incidental body hit. Add shared NoteStore.search() ranking exact-title > title-prefix > title-contains > body > OCR, recency tiebreak.",
           "images": [],
           "comments": [],
           "createdAt": "2026-07-20T11:04:00.946Z",
-          "updatedAt": "2026-07-20T11:04:00.946Z"
+          "updatedAt": "2026-07-20T11:04:16.251Z"
         }
       ]
     },
