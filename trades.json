@@ -24,15 +24,20 @@
       "leverage": 5,
       "size": 1.399,
       "entryPrice": 198.87,
-      "exitPrice": 194.31,
+      "exitPrice": null,
       "openedAt": "2026-07-19T07:01:24Z",
-      "closedAt": "2026-07-20T06:00:34Z",
-      "pnlUsd": -6.3794,
-      "pnlPct": -2.293,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "breakout",
       "confidence": 100,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Entered TAO long on a bullish 1h confluence setup, expecting continuation.",
+        "exitReason": "Closed early on hard signal flip: 1h now reads SHORT conf 75 \u2014 price broke below all EMAs, RSI 37, MACD histogram negative, EMA21 rolling over.",
+        "learnings": "Cutting a thesis-broken long at -2.2% beat riding it toward the -8% stop. Trend regime reversed on TAO; correct to respect the flip rather than hope."
+      }
     },
     {
       "id": "trade-1784424718174",
