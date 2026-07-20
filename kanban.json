@@ -38,16 +38,7 @@
     {
       "id": "col-inprogress",
       "title": "In Progress",
-      "cards": [
-        {
-          "id": "card-1784531026569",
-          "title": "Duplicate note command",
-          "description": "Research: templates in Obsidian/Craft require manual markdown/config (XDA '3 reasons I uninstalled Obsidian'). A one-click Duplicate gives poor-man's templates with zero configuration — copy the file, open the copy. No template system, no complexity.",
-          "images": [],
-          "createdAt": "2026-07-20T00:00:00.000Z",
-          "updatedAt": "2026-07-20T08:00:44.403Z"
-        }
-      ]
+      "cards": []
     },
     {
       "id": "col-review",
@@ -68,6 +59,14 @@
           "images": [],
           "createdAt": "2026-07-20T00:00:00.000Z",
           "updatedAt": "2026-07-20T07:05:26.927Z"
+        },
+        {
+          "id": "card-1784531026569",
+          "title": "Duplicate note command",
+          "description": "Research: templates in Obsidian/Craft require manual markdown/config (XDA '3 reasons I uninstalled Obsidian'). A one-click Duplicate gives poor-man's templates with zero configuration — copy the file, open the copy. No template system, no complexity.",
+          "images": [],
+          "createdAt": "2026-07-20T00:00:00.000Z",
+          "updatedAt": "2026-07-20T08:01:52.826Z"
         }
       ]
     },
