@@ -29,11 +29,11 @@
         {
           "id": "card-1784545464750",
           "title": "Copy as Plain Text (strip markdown for pasting elsewhere)",
-          "description": "",
+          "description": "Research #5 portability/ownership + #6 mobile capture (notes get pasted into email/Slack/Messages). Editor already has Copy as Markdown and Copy as HTML but no plain-text copy that strips the syntax (#, **, ==, [](), - [ ]). Add inklingCopyAsPlainText: alongside the existing copy commands. One menu item, no config.",
           "images": [],
           "comments": [],
           "createdAt": "2026-07-20T11:04:24.750Z",
-          "updatedAt": "2026-07-20T11:04:24.750Z"
+          "updatedAt": "2026-07-20T11:04:25.933Z"
         }
       ]
     },
