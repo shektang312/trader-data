@@ -38,11 +38,11 @@
         {
           "id": "card-1784545473153",
           "title": "Export as PDF (direct, alongside Export as HTML)",
-          "description": "",
+          "description": "Research #5 file ownership/portability: a note you own should be shareable as a durable, universal artifact. Today the only PDF route is Print (Cmd-P) -> Save as PDF, which is undiscoverable. Add a direct Export as PDF... next to the existing Export as HTML..., rendering the same PrintableNoteView to a PDF via NSPrintOperation. No config.",
           "images": [],
           "comments": [],
           "createdAt": "2026-07-20T11:04:33.153Z",
-          "updatedAt": "2026-07-20T11:04:33.153Z"
+          "updatedAt": "2026-07-20T11:04:34.386Z"
         }
       ]
     },
