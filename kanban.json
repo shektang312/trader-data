@@ -47,11 +47,11 @@
         {
           "id": "card-1784545482310",
           "title": "Remember scroll/cursor position per note when reopening long notes",
-          "description": "",
+          "description": "Research #2: Craft caps notes at 20k chars; a user couldnt paste a 2-hour lecture transcript. Washi handles long notes but every time you switch away and back it jumps to the top, forcing you to re-find your place. Remember the last cursor/scroll position per note (in-memory, keyed by note URL) and restore it on reopen. Invisible robustness for long transcripts, no config, no persisted setting.",
           "images": [],
           "comments": [],
           "createdAt": "2026-07-20T11:04:42.310Z",
-          "updatedAt": "2026-07-20T11:04:42.310Z"
+          "updatedAt": "2026-07-20T11:04:43.495Z"
         }
       ]
     },
