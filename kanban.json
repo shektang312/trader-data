@@ -46,16 +46,7 @@
     {
       "id": "col-inprogress",
       "title": "In Progress",
-      "cards": [
-        {
-          "id": "card-1784531026568",
-          "title": "Surface a 'downloading from iCloud' state in the sync indicator",
-          "description": "Research priority #3: visible, trustworthy sync. checkSyncStatus() only inspects upload status; a note still downloading reads as empty yet the dot shows SYNCED. Add ubiquitousItemDownloadingStatus awareness so the indicator shows SYNCING while content is still arriving.",
-          "images": [],
-          "createdAt": "2026-07-20T00:00:00.000Z",
-          "updatedAt": "2026-07-20T07:04:02.296Z"
-        }
-      ]
+      "cards": []
     },
     {
       "id": "col-review",
@@ -68,6 +59,14 @@
           "images": [],
           "createdAt": "2026-07-20T00:00:00.000Z",
           "updatedAt": "2026-07-20T07:05:25.855Z"
+        },
+        {
+          "id": "card-1784531026568",
+          "title": "Surface a 'downloading from iCloud' state in the sync indicator",
+          "description": "Research priority #3: visible, trustworthy sync. checkSyncStatus() only inspects upload status; a note still downloading reads as empty yet the dot shows SYNCED. Add ubiquitousItemDownloadingStatus awareness so the indicator shows SYNCING while content is still arriving.",
+          "images": [],
+          "createdAt": "2026-07-20T00:00:00.000Z",
+          "updatedAt": "2026-07-20T07:05:26.927Z"
         }
       ]
     },
