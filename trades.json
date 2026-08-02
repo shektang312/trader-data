@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1785684629152",
+      "coin": "DOGE",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 1554.0,
+      "entryPrice": 0.070349,
+      "exitPrice": null,
+      "openedAt": "2026-08-02T15:30:29Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "trend-stack",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1785679244023",
       "coin": "ETH",
       "direction": "SHORT",
