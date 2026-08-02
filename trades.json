@@ -1,14 +1,14 @@
 {
   "trades": [
     {
-      "id": "trade-1785671192976",
-      "coin": "ADA",
+      "id": "trade-1785671205694",
+      "coin": "AVAX",
       "direction": "LONG",
       "leverage": 5,
-      "size": 584.0,
-      "entryPrice": 0.18755,
+      "size": 16.57,
+      "entryPrice": 6.6108,
       "exitPrice": null,
-      "openedAt": "2026-08-02T11:46:32Z",
+      "openedAt": "2026-08-02T11:46:45Z",
       "closedAt": null,
       "pnlUsd": null,
       "pnlPct": null,
