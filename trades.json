@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1785700866986",
+      "coin": "ZEC",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 0.22,
+      "entryPrice": 485.45,
+      "exitPrice": null,
+      "openedAt": "2026-08-02T20:01:06Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "breakout",
+      "confidence": 97,
+      "testnet": false
+    },
+    {
       "id": "trade-1785684629152",
       "coin": "DOGE",
       "direction": "LONG",
@@ -32,12 +49,7 @@
       "status": "open",
       "signal": "macd-bear-stack",
       "confidence": 84,
-      "testnet": false,
-      "notes": {
-        "hypothesis": "Shorted ETH on a 15m breakdown/bearish confluence signal expecting continuation lower off the 1h structure.",
-        "exitReason": "Manual early cut: the TA signal flipped hard to LONG (conf 75) against the short \u2014 price reclaimed 1h EMA50, EMA21 turned up, RSI 63 and MACD histogram positive. Thesis invalidated, so exited at ~-1.5% rather than waiting for the -8% stop.",
-        "learnings": "Cutting on a clean signal flip saved ~6.5% of the risk budget on this trade. Confirms the value of re-running analyze on open positions every cycle instead of passively waiting for TP/SL."
-      }
+      "testnet": false
     },
     {
       "id": "trade-1785671217030",
