@@ -1,14 +1,14 @@
 {
   "trades": [
     {
-      "id": "trade-1785671205694",
-      "coin": "AVAX",
+      "id": "trade-1785671217030",
+      "coin": "kPEPE",
       "direction": "LONG",
       "leverage": 5,
-      "size": 16.57,
-      "entryPrice": 6.6108,
+      "size": 37722.0,
+      "entryPrice": 0.002904,
       "exitPrice": null,
-      "openedAt": "2026-08-02T11:46:45Z",
+      "openedAt": "2026-08-02T11:46:57Z",
       "closedAt": null,
       "pnlUsd": null,
       "pnlPct": null,
