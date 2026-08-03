@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1785716135105",
+      "coin": "NEAR",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 63.4,
+      "entryPrice": 1.7162,
+      "exitPrice": null,
+      "openedAt": "2026-08-03T00:15:35Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "trend-stack",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1785700866986",
       "coin": "ZEC",
       "direction": "LONG",
