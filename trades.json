@@ -29,15 +29,20 @@
       "leverage": 5,
       "size": 0.23,
       "entryPrice": 482.36,
-      "exitPrice": 471.55,
+      "exitPrice": null,
       "openedAt": "2026-08-03T00:30:36Z",
-      "closedAt": "2026-08-03T08:00:33Z",
-      "pnlUsd": -2.4863,
-      "pnlPct": -2.2411,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "ema-stack",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Long ZEC entered on a bullish confluence setup with price holding above the 1h EMA50 and the scan ranking it as best pick. Expected continuation of the uptrend off the recent range.",
+        "exitReason": "Manual early close on hard signal flip. The 1h EMA21 rolled over (-0.33%), price lost the EMA50, RSI fell to 43, and both 1h/15m MACD histograms went negative with volume confirmation \u2014 analyze scored ZEC SHORT at conf 75 while we were long.",
+        "learnings": "Cutting on a confirmed signal reversal beat waiting for the -8% stop: exited at -2.25% adverse (-$2.49) instead of risking the full stop distance. ZEC's 1.23% ATR is the highest in the universe, so it round-trips fast \u2014 worth tightening thesis-invalidation on high-ATR names rather than giving them room."
+      }
     },
     {
       "id": "trade-1785716135105",
