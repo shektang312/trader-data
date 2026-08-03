@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1785767453324",
+      "coin": "ZEC",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 0.22,
+      "entryPrice": 493.1963,
+      "exitPrice": null,
+      "openedAt": "2026-08-03T14:30:53Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "breakout",
+      "confidence": 100,
+      "testnet": false
+    },
+    {
       "id": "trade-1785744064041",
       "coin": "XLM",
       "direction": "SHORT",
