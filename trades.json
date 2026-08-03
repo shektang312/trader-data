@@ -15,7 +15,12 @@
       "status": "closed",
       "signal": "carried/reconstructed",
       "confidence": null,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Carried AVAX long from an earlier bullish 1h confluence entry at 6.6108, expecting trend continuation off the EMA stack.",
+        "exitReason": "Closed early on a hard signal flip - analyze now reads SHORT conf 75: price below 1h EMA50, EMA21 falling -0.29%, RSI 39, MACD histogram negative. Cut at 6.4076 rather than ride toward the -8% stop at 6.0819.",
+        "learnings": "Respecting the flip saved ~5 points of downside vs the stop. Real issue this cycle was bookkeeping, not the trade: the position had no dashboard record at all, so the close printed no trade_record id and the retroactive create silently failed."
+      }
     },
     {
       "id": "trade-1785717036557",
