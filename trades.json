@@ -1,20 +1,20 @@
 {
   "trades": [
     {
-      "id": "trade-1785729665501",
-      "coin": "TAO",
-      "direction": "SHORT",
+      "id": "trade-1785729600000",
+      "coin": "AVAX",
+      "direction": "LONG",
       "leverage": 5,
-      "size": 0.566,
-      "entryPrice": 190.01,
-      "exitPrice": null,
-      "openedAt": "2026-08-03T04:01:05Z",
-      "closedAt": null,
-      "pnlUsd": null,
-      "pnlPct": null,
-      "status": "open",
-      "signal": "breakdown",
-      "confidence": 100,
+      "size": 16.57,
+      "entryPrice": 6.6108,
+      "exitPrice": 6.4076,
+      "openedAt": "2026-08-03T00:00:00Z",
+      "closedAt": "2026-08-03T04:00:00Z",
+      "pnlUsd": -3.367,
+      "pnlPct": -15.3688,
+      "status": "closed",
+      "signal": "carried/reconstructed",
+      "confidence": null,
       "testnet": false
     },
     {
