@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1785787244155",
+      "coin": "AVAX",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 16.29,
+      "entryPrice": 6.5713,
+      "exitPrice": null,
+      "openedAt": "2026-08-03T20:00:44Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "ema-stack",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1785767453324",
       "coin": "ZEC",
       "direction": "LONG",
@@ -88,12 +105,7 @@
       "status": "open",
       "signal": "trend-stack",
       "confidence": 90,
-      "testnet": false,
-      "notes": {
-        "hypothesis": "TA scan flagged NEAR long on 1h EMA trend stack with 15m breakout and volume confirmation; expected continuation of the intraday uptrend off the EMA21.",
-        "exitReason": "Momentum exit fired by manage-all: in profit (+1.56% favorable, +$1.69) and price rolled under the 15m EMA, so the deterministic rule banked the move rather than waiting for the +20% TP.",
-        "learnings": "Active management did its job \u2014 a small green exit instead of a round-trip back to the -8% stop. Confirms the momentum-reversal rule is the primary exit path on this cadence; the far TP is genuinely just a backstop."
-      }
+      "testnet": false
     },
     {
       "id": "trade-1785700866986",
