@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1785871843813",
+      "coin": "ETH",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 0.0586,
+      "entryPrice": 1873.9,
+      "exitPrice": null,
+      "openedAt": "2026-08-04T19:30:43Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "ema-stack",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1785862841714",
       "coin": "ZEC",
       "direction": "LONG",
