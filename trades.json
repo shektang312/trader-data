@@ -24,15 +24,20 @@
       "leverage": 5,
       "size": 0.22,
       "entryPrice": 494.12,
-      "exitPrice": 503.6,
+      "exitPrice": null,
       "openedAt": "2026-08-04T17:00:41Z",
-      "closedAt": "2026-08-04T20:15:16Z",
-      "pnlUsd": 2.0856,
-      "pnlPct": 1.9186,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "ema-stack-bullish",
       "confidence": 90,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "ZEC long from the TA scan's confluence pick \u2014 1h trend stack aligned with a 15m breakout, entered at 494.12 with the standard -8% stop / +20% TP.",
+        "exitReason": "Momentum exit fired at 503.56 (+1.91% favorable): price rolled under the 15m EMA while in profit, so active management banked ~+$2.09 rather than waiting for the far TP.",
+        "learnings": "Active management did its job \u2014 the far +20% TP is a backstop, and taking the momentum reversal locked a small green instead of risking a round-trip. Small size relative to the move; the edge here is exit discipline, not entry heroics."
+      }
     },
     {
       "id": "trade-1785787244155",
