@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1785874549783",
+      "coin": "TAO",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 0.55,
+      "entryPrice": 198.85,
+      "exitPrice": null,
+      "openedAt": "2026-08-04T20:15:49Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "breakout",
+      "confidence": 92,
+      "testnet": false
+    },
+    {
       "id": "trade-1785871843813",
       "coin": "ETH",
       "direction": "LONG",
@@ -32,12 +49,7 @@
       "status": "open",
       "signal": "ema-stack-bullish",
       "confidence": 90,
-      "testnet": false,
-      "notes": {
-        "hypothesis": "ZEC long from the TA scan's confluence pick \u2014 1h trend stack aligned with a 15m breakout, entered at 494.12 with the standard -8% stop / +20% TP.",
-        "exitReason": "Momentum exit fired at 503.56 (+1.91% favorable): price rolled under the 15m EMA while in profit, so active management banked ~+$2.09 rather than waiting for the far TP.",
-        "learnings": "Active management did its job \u2014 the far +20% TP is a backstop, and taking the momentum reversal locked a small green instead of risking a round-trip. Small size relative to the move; the edge here is exit discipline, not entry heroics."
-      }
+      "testnet": false
     },
     {
       "id": "trade-1785787244155",
