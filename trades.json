@@ -1,23 +1,6 @@
 {
   "trades": [
     {
-      "id": "trade-1785822346386",
-      "coin": "BTC",
-      "direction": "LONG",
-      "leverage": 5,
-      "size": 0.0017,
-      "entryPrice": 63813.0,
-      "exitPrice": null,
-      "openedAt": "2026-08-04T05:45:46Z",
-      "closedAt": null,
-      "pnlUsd": null,
-      "pnlPct": null,
-      "status": "open",
-      "signal": "ema-stack-momentum",
-      "confidence": 90,
-      "testnet": false
-    },
-    {
       "id": "trade-1785787244155",
       "coin": "AVAX",
       "direction": "LONG",
@@ -32,7 +15,12 @@
       "status": "open",
       "signal": "ema-stack",
       "confidence": 90,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "AVAX long off a bullish 1h EMA stack (9>21>50) with price above EMA50 and EMA21 rising hard (+1.75%); entered at 6.5713 expecting continuation of the alt bid.",
+        "exitReason": "Momentum exit by manage-all at +4.32% favorable \u2014 price rolled under the 15m EMA while in profit, so the mechanical rule banked ~+$2.3 instead of waiting for the +20% TP.",
+        "learnings": "The active-management rule did exactly its job: RSI(1h) was already 76 (extended) when the trend was strongest, and taking the momentum exit avoided round-tripping an extended move. Confirms that on high-beta alts the trailing/momentum exit, not the far TP, is where the edge lives."
+      }
     },
     {
       "id": "trade-1785767453324",
