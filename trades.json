@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1785862841714",
+      "coin": "ZEC",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 0.22,
+      "entryPrice": 494.12,
+      "exitPrice": null,
+      "openedAt": "2026-08-04T17:00:41Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "ema-stack-bullish",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1785787244155",
       "coin": "AVAX",
       "direction": "LONG",
