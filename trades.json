@@ -15,7 +15,12 @@
       "status": "closed",
       "signal": "carried/reconstructed",
       "confidence": null,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "BTC long on a clean bullish 1h EMA stack (9>21>50) with price above EMA50, EMA21 rising and MACD histogram positive; entered 63813 expecting trend continuation.",
+        "exitReason": "Momentum exit by manage-all at +1.15% favorable - price rolled under the 15m EMA while in profit, so the mechanical rule banked +$1.22 rather than risking a round-trip to the -8% stop.",
+        "learnings": "Small winner, but the same cycle that momentum-exited BTC had scan ranking BTC LONG at conf 90 off the 1h frame. The 15m exit and 1h entry signals can disagree - I did NOT re-enter, to avoid paying fees twice on one thesis. Worth deciding whether a momentum-exited coin should be cooled down for N cycles."
+      }
     },
     {
       "id": "trade-1785874549783",
