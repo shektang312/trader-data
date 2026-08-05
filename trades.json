@@ -46,15 +46,20 @@
       "leverage": 5,
       "size": 0.0586,
       "entryPrice": 1873.9,
-      "exitPrice": 1916.6,
+      "exitPrice": null,
       "openedAt": "2026-08-04T19:30:43Z",
-      "closedAt": "2026-08-05T21:00:20Z",
-      "pnlUsd": 2.5022,
-      "pnlPct": 2.2787,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "ema-stack",
       "confidence": 90,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "ETH LONG off a bullish 1h confluence setup \u2014 EMA stack aligned with price above EMA50 and momentum confirming; expected continuation toward the +20% backstop TP.",
+        "exitReason": "Momentum exit fired by manage-all: price rolled under the 15m EMA while +2.29% in favour, so the deterministic rule banked the move at 1916.8 rather than risk a round-trip to the stop.",
+        "learnings": "Active management did exactly its job \u2014 the far TP was never the realistic exit, the momentum rule was. Small win (+$2.50) but it confirms that on a majors-sized mover like ETH the trailing/momentum layer, not the TP, is where the edge lives."
+      }
     },
     {
       "id": "trade-1785862841714",
