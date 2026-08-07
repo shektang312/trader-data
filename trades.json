@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1786133750525",
+      "coin": "ZEC",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 0.21,
+      "entryPrice": 513.0,
+      "exitPrice": null,
+      "openedAt": "2026-08-07T20:15:50Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "breakout",
+      "confidence": 90,
+      "testnet": false
+    },
+    {
       "id": "trade-1786082793197",
       "coin": "SUI",
       "direction": "SHORT",
@@ -32,12 +49,7 @@
       "status": "open",
       "signal": "1h EMA stack bearish (9<21<50), price below EMA50, EMA21 falling -0.63%, RSI 29, MACD hist negative, 15m breakdown of recent low with volume confirmation. Top-ranked scan pick in a broadly bearish tape (10 of 12 coins short-biased). Edge gate back ON (PF 1.014).",
       "confidence": 100,
-      "testnet": false,
-      "notes": {
-        "hypothesis": "Signal scan flagged NEAR SHORT on bearish 1h EMA stack with 15m breakdown confirmation; expected continuation lower on high-beta alt weakness.",
-        "exitReason": "Momentum reversal exit while in profit \u2014 price rolled back above the 15m EMA at 1.5945 after tagging ~2% favorable, so active mgmt banked +$2.14 rather than waiting for the +20% TP.",
-        "learnings": "Active management earned its keep here: the far TP would never have filled and a passive hold risked round-tripping to the -8% stop. Small win, but the mechanical momentum exit is doing exactly its job on shallow alt moves."
-      }
+      "testnet": false
     },
     {
       "id": "trade-1785950204167",
