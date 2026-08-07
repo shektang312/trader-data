@@ -80,15 +80,20 @@
       "leverage": 5,
       "size": 0.55,
       "entryPrice": 198.85,
-      "exitPrice": 194.98,
+      "exitPrice": null,
       "openedAt": "2026-08-04T20:15:49Z",
-      "closedAt": "2026-08-07T21:00:35Z",
-      "pnlUsd": -1.9801,
-      "pnlPct": -1.8172,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "breakout",
       "confidence": 92,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Short TAO at 191.50 on a bearish 1h confluence read; expected continuation lower after the pullback stalled under the EMA stack.",
+        "exitReason": "Manual early cut \u2014 the TA signal flipped hard to LONG (conf 83) with a 15m breakout of the recent high confirmed by volume, so the short thesis was broken well before the -8% stop.",
+        "learnings": "Cutting on a confirmed signal flip cost ~$2 instead of letting it run to the stop for ~$10+. Volume-confirmed breakouts against an open position are the clearest invalidation trigger we have \u2014 keep acting on them."
+      }
     },
     {
       "id": "trade-1785871843813",
