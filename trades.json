@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1786081007130",
+      "coin": "NEAR",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 67.1,
+      "entryPrice": 1.6263,
+      "exitPrice": null,
+      "openedAt": "2026-08-07T05:36:47Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "1h EMA stack bearish (9<21<50), price below EMA50, EMA21 falling -0.63%, RSI 29, MACD hist negative, 15m breakdown of recent low with volume confirmation. Top-ranked scan pick in a broadly bearish tape (10 of 12 coins short-biased). Edge gate back ON (PF 1.014).",
+      "confidence": 100,
+      "testnet": false
+    },
+    {
       "id": "trade-1785950204167",
       "coin": "BTC",
       "direction": "LONG",
@@ -37,12 +54,7 @@
       "status": "open",
       "signal": "breakout",
       "confidence": 92,
-      "testnet": false,
-      "notes": {
-        "hypothesis": "1h EMA stack was bullish (9>21>50), price above EMA50, RSI 56-75, TA engine read LONG conf 75-89. Entered a trend-continuation long on TAO at 198.85 expecting the uptrend to extend.",
-        "exitReason": "Manual cut \u2014 entry thesis broken. On the first managed cycle after a 28h scheduler outage, analyze TAO had flipped to SHORT conf 90: full bearish 1h EMA stack, price below EMA50, RSI 36, MACD histogram negative. Cut at 190.51 for -4.2% rather than ride to the -8% stop.",
-        "learnings": "The loss itself was small and the exchange stop did its job as a backstop, but this trade sat unmanaged for 28 hours because a hung claude -p process blocked every launchd cycle. The -8% stop is the seatbelt, not the strategy \u2014 active management is where the edge is, and it was absent. Lesson is operational, not directional: the scheduler needs a timeout so a single hung cycle can never silently suspend the agent. Directionally, cutting on a clean thesis flip beat waiting for the far stop by ~3.8%."
-      }
+      "testnet": false
     },
     {
       "id": "trade-1785871843813",
