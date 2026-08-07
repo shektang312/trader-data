@@ -29,15 +29,20 @@
       "leverage": 5,
       "size": 0.55,
       "entryPrice": 198.85,
-      "exitPrice": 190.52,
+      "exitPrice": null,
       "openedAt": "2026-08-04T20:15:49Z",
-      "closedAt": "2026-08-07T05:36:08Z",
-      "pnlUsd": -4.5815,
-      "pnlPct": -4.1891,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "breakout",
       "confidence": 92,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "1h EMA stack was bullish (9>21>50), price above EMA50, RSI 56-75, TA engine read LONG conf 75-89. Entered a trend-continuation long on TAO at 198.85 expecting the uptrend to extend.",
+        "exitReason": "Manual cut \u2014 entry thesis broken. On the first managed cycle after a 28h scheduler outage, analyze TAO had flipped to SHORT conf 90: full bearish 1h EMA stack, price below EMA50, RSI 36, MACD histogram negative. Cut at 190.51 for -4.2% rather than ride to the -8% stop.",
+        "learnings": "The loss itself was small and the exchange stop did its job as a backstop, but this trade sat unmanaged for 28 hours because a hung claude -p process blocked every launchd cycle. The -8% stop is the seatbelt, not the strategy \u2014 active management is where the edge is, and it was absent. Lesson is operational, not directional: the scheduler needs a timeout so a single hung cycle can never silently suspend the agent. Directionally, cutting on a clean thesis flip beat waiting for the far stop by ~3.8%."
+      }
     },
     {
       "id": "trade-1785871843813",
