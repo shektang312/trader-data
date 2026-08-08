@@ -41,15 +41,20 @@
       "leverage": 5,
       "size": 162.0,
       "entryPrice": 0.67276,
-      "exitPrice": 0.67988,
+      "exitPrice": null,
       "openedAt": "2026-08-07T06:06:33Z",
-      "closedAt": "2026-08-08T04:00:33Z",
-      "pnlUsd": -1.1534,
-      "pnlPct": -1.0583,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "ema-stack-bearish",
       "confidence": 81,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Entered SHORT SUI on a scan-scored breakdown setup \u2014 bearish confluence with price rejecting the recent 15m range low.",
+        "exitReason": "Manual early close on signal flip: analyze flipped to LONG conf 75 (price back above 1h EMA50, EMA21 rising +0.18%, 1h RSI 59, MACD hist positive) while the short was ~1.1% adverse. Cut at -$1.17 rather than let it run to the -8% stop.",
+        "learnings": "Cutting on a hard signal flip is exactly what the active-management mandate is for \u2014 a $1.17 scratch instead of a possible -$10 stop-out. The entry itself looks like a false breakdown: vol_confirm was false, and low-conviction breakdowns without volume keep failing on SUI. Weight volume confirmation more heavily before shorting range lows."
+      }
     },
     {
       "id": "trade-1786081007130",
