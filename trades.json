@@ -7,15 +7,20 @@
       "leverage": 5,
       "size": 0.00168,
       "entryPrice": 64941.0,
-      "exitPrice": 64758.0,
+      "exitPrice": null,
       "openedAt": "2026-08-07T21:01:00Z",
-      "closedAt": "2026-08-09T02:45:42Z",
-      "pnlUsd": -0.3074,
-      "pnlPct": -0.2818,
-      "status": "closed",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
       "signal": "trend-stack",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Signal-driven BTC LONG from the scan engine: 1h trend stack was constructive and the entry was taken on the confluence score.",
+        "exitReason": "Manual early exit \u2014 the TA engine flipped BTC to SHORT at conf 78 (price lost the 1h EMA50, 1h MACD histogram negative, 15m breakdown of the recent low) while the position was still ~flat at -0.29%.",
+        "learnings": "Cutting a broken thesis at breakeven is the cheapest exit available; waiting for the -8% stop would have risked ~$8.7 to defend a signal that had already reversed. The discipline worked, but note 15m RSI was 22.7 (deeply oversold) at the flip \u2014 the same conditions that break a long also make a fresh short a chase, so no reversal entry was taken."
+      }
     },
     {
       "id": "trade-1786133750525",
