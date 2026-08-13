@@ -59,7 +59,12 @@
       "status": "closed",
       "signal": "ema-stack-bullish",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Opened LONG on SOL off a bullish scan setup on the majors universe, expecting the higher-beta major to lead a continuation move.",
+        "exitReason": "Manual early close on signal inversion: analyze read SHORT conf 84 \u2014 1h EMA stack bearish, price under EMA50, MACD negative \u2014 though weaker than BTC's (RSI 42.6, no volume confirm).",
+        "learnings": "Correlation showed itself: BTC, ETH and SOL all rolled over together, so three same-direction majors behaved as one leveraged bet. Cutting SOL at -0.8% alongside BTC was the right call, but the real lesson is that stacking three correlated longs concentrates risk more than the 3-position cap implies."
+      }
     },
     {
       "id": "trade-1786599082003",
