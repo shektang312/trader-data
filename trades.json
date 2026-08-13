@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1786599082003",
+      "coin": "ETH",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 0.0569,
+      "entryPrice": 1897.8,
+      "exitPrice": null,
+      "openedAt": "2026-08-13T05:31:22Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "breakout",
+      "confidence": 74,
+      "testnet": false
+    },
+    {
       "id": "trade-1786590345290",
       "coin": "ETH",
       "direction": "SHORT",
@@ -15,12 +32,7 @@
       "status": "open",
       "signal": "emastack",
       "confidence": 78,
-      "testnet": false,
-      "notes": {
-        "hypothesis": "Short entry on ETH at 1882.4 from a bearish 1h EMA stack (9<21<50) with the 15m signal pointing down \u2014 expected continuation of the 1h downtrend to carry price away from the EMA50.",
-        "exitReason": "Manual early close on a hard signal flip: the TA engine flipped ETH to LONG conf 74 with a 15m breakout of the recent high, volume confirmation and 15m RSI 73.6. Thesis broken, cut at -0.85% (-$0.85) rather than ride a short into an upside breakout with the stop 8% away.",
-        "learnings": "Cutting on a clean, volume-confirmed flip while the loss is still under 1% is the cheap version of being wrong. The lesson to watch: entering shorts while price is still above the 1h EMA50 with a flat EMA21 slope is a weak setup \u2014 the bearish EMA stack alone was not enough confluence."
-      }
+      "testnet": false
     },
     {
       "id": "trade-1786136460376",
