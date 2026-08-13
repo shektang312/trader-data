@@ -15,7 +15,12 @@
       "status": "closed",
       "signal": "breakout",
       "confidence": 77,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Opened LONG on a bullish 1h TA confluence read from scan (EMA stack + momentum), expecting continuation on the majors.",
+        "exitReason": "Manual early close on hard signal inversion: 1h EMA stack flipped fully bearish (9<21<50), price fell under EMA50, RSI 37, MACD histogram negative with volume confirm \u2014 analyze read SHORT conf 84 against the long.",
+        "learnings": "Cut at -1.1% rather than let a broken thesis ride to the -8% stop, since manage only momentum-exits positions already in profit. Taking a ~$1.2 loss beats a ~$8.6 stop-out on a trend that had clearly rolled over."
+      }
     },
     {
       "id": "trade-1786622438987",
