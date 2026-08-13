@@ -15,7 +15,12 @@
       "status": "closed",
       "signal": "breakdown",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Entered SHORT on a bearish 1h signal read; expected continuation lower on the majors after the earlier downside lean.",
+        "exitReason": "Manual early close on hard signal flip \u2014 ta.analyze went LONG conf 78 (bullish 1h EMA stack, price>EMA50, MACD+) directly against the short while position was -0.5%.",
+        "learnings": "Holding a short while the engine would open a long on the same coin is inconsistent; cutting at -0.5% costs a fee but avoids fighting the signal. Worth watching whether these thin-separation flips (EMAs within 0.06%) are real reversals or chop \u2014 if chop, the flip-close rule is churning fees."
+      }
     },
     {
       "id": "trade-1786642332022",
