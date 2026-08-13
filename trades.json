@@ -15,7 +15,12 @@
       "status": "closed",
       "signal": "ema-stack-bearish",
       "confidence": 75,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Short BTC taken on a bearish 1h signal; expected continuation lower after a failed push at the range high.",
+        "exitReason": "Manual early close \u2014 the 15m/1h signal flipped hard to LONG (conf 77): price reclaimed 1h EMA50, MACD histogram turned positive, and a 15m breakout of the recent high confirmed on volume. Thesis was broken, so cut at a small loss rather than wait for the -8% stop.",
+        "learnings": "Cutting on a clean signal flip cost only $0.84 versus the $10+ the wide stop would have risked. BTC remains the weakest of the three majors in backtest (PF 0.65) \u2014 worth holding a higher bar for BTC entries in either direction."
+      }
     },
     {
       "id": "trade-1786607136641",
