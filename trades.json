@@ -137,7 +137,12 @@
       "status": "closed",
       "signal": "breakout",
       "confidence": 74,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Opened LONG ETH at 1897.8 on a bullish TA read expecting continuation in the majors complex.",
+        "exitReason": "Manual early close on hard signal flip: ta.analyze now scores ETH SHORT at conf 84 \u2014 1h EMA stack bearish (9<21<50), price below EMA50, EMA21 falling, MACD histogram negative. Exited at 1873.3 for roughly -1.3%.",
+        "learnings": "Long thesis was fully invalidated, not just noise \u2014 a complete direction reversal at high conviction is the one case worth overriding the wide stop for. Cutting at -1.3% beats riding a counter-signal position toward the -8% stop. Also flagged: this trade had no entry in current_trade.json despite being live on the exchange."
+      }
     },
     {
       "id": "trade-1786590345290",
