@@ -15,7 +15,12 @@
       "status": "closed",
       "signal": "ema-stack-bullish",
       "confidence": 78,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Opened LONG SOL at 76.229 expecting upside continuation; SOL is the strongest of the three majors in the backtest.",
+        "exitReason": "Manual early close on signal flip: ta.analyze now scores SOL SHORT at conf 78 \u2014 bearish 1h EMA stack, price under EMA50, EMA21 falling, MACD histogram negative. Exited at 75.641 for roughly -0.8%.",
+        "learnings": "Closed alongside the ETH long because all three majors flipped bearish in unison \u2014 correlated longs into a uniformly bearish tape is one leveraged bet against the signal, not three trades. Caveat kept honest: 15m MACD was ticking positive on both, so a bounce here would make this exit early rather than smart. Worth reviewing whether signal-flip closes beat letting the wide stop work."
+      }
     },
     {
       "id": "trade-1786642340519",
