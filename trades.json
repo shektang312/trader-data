@@ -15,7 +15,12 @@
       "status": "closed",
       "signal": "breakdown",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "ETH SHORT under the majors-only config \u2014 bearish 1h signal with confidence in the permitted 55-84 band, flat 5x, 2% risk, -8% stop and +20% TP resting on the exchange.",
+        "exitReason": "Manual close at Shek's instruction to flatten everything and pause the schedule. Exited at 1883.1 against a 1872.6 entry, so roughly -$0.59 \u2014 a small loss on a short that had drifted slightly against us, not a stop-out.",
+        "learnings": "The exit was discretionary rather than systematic, so it says nothing about the signal. The real takeaway is that the account is being paused with the majors-only change still unproven: too few trades since 2026-08-13 to distinguish it from the old config."
+      }
     },
     {
       "id": "trade-1786699917288",
