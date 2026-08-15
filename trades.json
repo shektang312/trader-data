@@ -93,7 +93,12 @@
       "status": "closed",
       "signal": "breakdown",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "BTC SHORT from the majors-only config: scan flagged a bearish 1h structure with confidence inside the 55-84 band. Fixed 5x leverage, risk 2% of equity, stop -8% and TP +20% resting on the exchange.",
+        "exitReason": "Manual close at Shek's instruction \u2014 he asked to exit all trades and pause the schedule. Not a signal or risk exit; the position was slightly green (+$0.11) when flattened at 63113.0 vs 63175.0 entry.",
+        "learnings": "Clean discretionary exit, nothing to fault in the trade itself. Worth noting the sample under the new majors-only rules is far too small to judge it \u2014 this and the ETH short are only a handful of trades since 2026-08-13, so the config change remains unvalidated live."
+      }
     },
     {
       "id": "trade-1786632367448",
