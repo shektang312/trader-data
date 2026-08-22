@@ -15,7 +15,12 @@
       "status": "closed",
       "signal": "ema-stack-bullish",
       "confidence": 75,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "SOL LONG off the TA scan: 1h EMA stack bullish (9>21>50), price above EMA50 with EMA21 rising, RSI ~55 \u2014 a continuation-of-uptrend day-trade entry in the majors universe at 5x flat leverage.",
+        "exitReason": "Momentum exit by manage: price rolled under the 15m EMA while the position was in profit (+1.09% favorable), so the mechanical layer banked +$1.14 rather than waiting for the far +20% TP.",
+        "learnings": "The mechanical momentum exit did its job \u2014 small green instead of a possible round-trip back to the -8% stop. Notable tension: scan immediately re-scored SOL LONG at conf 75 on the same 1h trend that has not broken, so the 15m exit and 1h entry signals disagree. Declined to re-enter in the same cycle to avoid paying fees twice on an unchanged thesis; if the 1h stack still holds next cycle it is a clean re-entry."
+      }
     },
     {
       "id": "trade-1787376644779",
