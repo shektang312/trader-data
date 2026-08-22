@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1787371242329",
+      "coin": "BTC",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 0.00135,
+      "entryPrice": 78498.0,
+      "exitPrice": null,
+      "openedAt": "2026-08-22T04:00:42Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "ema-stack-bullish",
+      "confidence": 81,
+      "testnet": false
+    },
+    {
       "id": "trade-1787370339983",
       "coin": "SOL",
       "direction": "LONG",
