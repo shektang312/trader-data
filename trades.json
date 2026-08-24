@@ -15,7 +15,12 @@
       "status": "closed",
       "signal": "ema-stack-bearish",
       "confidence": 78,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Short BTC on a bearish TA confluence read; expected continuation lower off the 1h structure while price sat under the short-term EMAs.",
+        "exitReason": "Manual early close on hard signal flip: analyze BTC came back LONG conf 77 with price above 1h EMA50, positive 1h MACD histogram, and a volume-confirmed 15m breakout of the recent high. Short thesis invalidated, cut at ~-2.0% rather than waiting for the -8% stop.",
+        "learnings": "Cutting on a confirmed reversal beats riding to the wide stop when the entry premise is gone. Also consistent with the 45d backtest finding that BTC is the negative coin of the majors (PF 0.65) - it deserves the fastest cut of the three."
+      }
     },
     {
       "id": "trade-1787560238542",
