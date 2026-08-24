@@ -54,7 +54,12 @@
       "status": "closed",
       "signal": "breakdown",
       "confidence": 83,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Short SOL at 93.44 on a 15m breakdown/bearish-confluence signal, expecting continuation lower while the majors stalled.",
+        "exitReason": "Manual early close on a hard signal flip: 1h EMA stack turned fully bullish (9>21>50), price reclaimed EMA50, RSI 60 and MACD histogram positive \u2014 every factor that justified the short had inverted. Cut at 95.68 for -$2.53 rather than ride 5% more to the -8% stop.",
+        "learnings": "Correct use of the thesis-broken rule: the -8% stop is deliberately far so noise can't close trades, but a full multi-factor inversion is signal, not noise. Did NOT flip to SOL long \u2014 the reversal printed at conf 84, right in the inversely-predictive band (PF ~0.98), so it is a skip, not an entry."
+      }
     },
     {
       "id": "trade-1787433341359",
