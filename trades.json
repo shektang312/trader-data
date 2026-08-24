@@ -88,7 +88,12 @@
       "status": "closed",
       "signal": "ema-stack-bullish",
       "confidence": 81,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Entered LONG BTC off a bullish 1h EMA stack with price holding above EMA50 and positive MACD \u2014 a trend-continuation setup on the deepest-book major.",
+        "exitReason": "Manual early close on thesis break: the 1h EMA stack flipped fully bearish (9<21<50), price lost EMA50, and MACD went negative, so analyze read SHORT at conf 78 \u2014 a full reversal of the entry signal, not noise. Exited at 77088 for roughly -1.9 uPNL rather than let a dead thesis ride to the -8% stop.",
+        "learnings": "Confirms the backtest's warning that BTC is the negative-edge major (-$3.09, PF 0.65) while ETH/SOL carry the edge. Cutting on a hard signal flip saved most of the remaining stop distance; the discipline question is whether BTC deserves a slot at all given it keeps producing these chop-driven reversals."
+      }
     },
     {
       "id": "trade-1787370339983",
