@@ -49,7 +49,12 @@
       "status": "closed",
       "signal": "ema-stack-bullish",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Opened SOL LONG on a signal-scored bounce setup while the majors were still holding above trend. Expected continuation of the intraday up-leg off the recent range low.",
+        "exitReason": "Manual early close on hard signal flip: ta.analyze now reads SOL SHORT at conf 75 (price under 1h EMA50, EMA21 falling -0.35%, RSI 40, MACD hist negative on both 1h and 15m). Cut at 96.80 vs entry 101.20, about -4.4%, roughly half the distance to the -8% stop.",
+        "learnings": "The whole majors complex flipped bearish together (BTC/ETH/SOL all SHORT 75 in the same cycle) \u2014 a lone long against a synchronized downturn is the correlation trap the 3-position rule warns about. Cutting on the flip instead of riding to the stop saved roughly $4 of the remaining downside. Confirms the value of checking analyze against position direction every cycle, not just running manage."
+      }
     },
     {
       "id": "trade-1787633142278",
