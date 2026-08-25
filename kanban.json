@@ -19,15 +19,6 @@
       "title": "Todo",
       "cards": [
         {
-          "id": "card-1784545464750",
-          "title": "Copy as Plain Text (strip markdown for pasting elsewhere)",
-          "description": "Research #5 portability/ownership + #6 mobile capture (notes get pasted into email/Slack/Messages). Editor already has Copy as Markdown and Copy as HTML but no plain-text copy that strips the syntax (#, **, ==, [](), - [ ]). Add inklingCopyAsPlainText: alongside the existing copy commands. One menu item, no config.",
-          "images": [],
-          "comments": [],
-          "createdAt": "2026-07-20T11:04:24.750Z",
-          "updatedAt": "2026-07-20T11:04:25.933Z"
-        },
-        {
           "id": "card-1784545473153",
           "title": "Export as PDF (direct, alongside Export as HTML)",
           "description": "Research #5 file ownership/portability: a note you own should be shareable as a durable, universal artifact. Today the only PDF route is Print (Cmd-P) -> Save as PDF, which is undiscoverable. Add a direct Export as PDF... next to the existing Export as HTML..., rendering the same PrintableNoteView to a PDF via NSPrintOperation. No config.",
@@ -104,6 +95,15 @@
           "comments": [],
           "createdAt": "2026-07-20T11:04:00.946Z",
           "updatedAt": "2026-07-20T11:05:47.186Z"
+        },
+        {
+          "id": "card-1784545464750",
+          "title": "Copy as Plain Text (strip markdown for pasting elsewhere)",
+          "description": "Research #5 portability/ownership + #6 mobile capture (notes get pasted into email/Slack/Messages). Editor already has Copy as Markdown and Copy as HTML but no plain-text copy that strips the syntax (#, **, ==, [](), - [ ]). Add inklingCopyAsPlainText: alongside the existing copy commands. One menu item, no config.",
+          "images": [],
+          "comments": [],
+          "createdAt": "2026-07-20T11:04:24.750Z",
+          "updatedAt": "2026-08-25T00:58:34.378Z"
         }
       ]
     },
