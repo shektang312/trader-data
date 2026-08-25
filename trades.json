@@ -49,7 +49,12 @@
       "status": "closed",
       "signal": "ema-stack-breakout",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Entered LONG on BTC from a TA-engine setup scoring in the 55-85 confidence band, expecting continuation off the 1h trend structure.",
+        "exitReason": "Manual early close on hard signal flip: analyze flipped to SHORT conf 77 - price below 1h EMA50, MACD negative on 1h and 15m, and a 15m breakdown of the recent low with volume confirmation. Closed at 78486 for roughly -2.2%, well before the -8% stop.",
+        "learnings": "Signal flip inside the reliable 55-85 confidence band is the right trigger for an early cut - waiting for the wide stop here would have cost ~4x more. Also a reminder that BTC was the negative major in the 45d backtest (PF 0.65); the edge is in ETH and SOL, so BTC longs deserve a shorter leash."
+      }
     },
     {
       "id": "trade-1787626842643",
