@@ -32,17 +32,7 @@
     {
       "id": "col-inprogress",
       "title": "In Progress",
-      "cards": [
-        {
-          "id": "card-1784545473153",
-          "title": "Export as PDF (direct, alongside Export as HTML)",
-          "description": "Research #5 file ownership/portability: a note you own should be shareable as a durable, universal artifact. Today the only PDF route is Print (Cmd-P) -> Save as PDF, which is undiscoverable. Add a direct Export as PDF... next to the existing Export as HTML..., rendering the same PrintableNoteView to a PDF via NSPrintOperation. No config.",
-          "images": [],
-          "comments": [],
-          "createdAt": "2026-07-20T11:04:33.153Z",
-          "updatedAt": "2026-08-25T00:58:35.435Z"
-        }
-      ]
+      "cards": []
     },
     {
       "id": "col-review",
@@ -105,6 +95,15 @@
           "comments": [],
           "createdAt": "2026-07-20T11:04:24.750Z",
           "updatedAt": "2026-08-25T00:58:34.378Z"
+        },
+        {
+          "id": "card-1784545473153",
+          "title": "Export as PDF (direct, alongside Export as HTML)",
+          "description": "Research #5 file ownership/portability: a note you own should be shareable as a durable, universal artifact. Today the only PDF route is Print (Cmd-P) -> Save as PDF, which is undiscoverable. Add a direct Export as PDF... next to the existing Export as HTML..., rendering the same PrintableNoteView to a PDF via NSPrintOperation. No config.",
+          "images": [],
+          "comments": [],
+          "createdAt": "2026-07-20T11:04:33.153Z",
+          "updatedAt": "2026-08-25T01:00:36.255Z"
         }
       ]
     },
