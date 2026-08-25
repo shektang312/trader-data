@@ -66,7 +66,12 @@
       "status": "closed",
       "signal": "breakout",
       "confidence": 77,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Long BTC off the TA scan's 1h trend-stack + 15m breakout confluence; expected continuation of the majors bid with a -8% stop and active trailing to do the exiting.",
+        "exitReason": "Momentum exit by manage: price rolled under the 15m EMA while in profit at +2.26% favorable (80222 vs 78447 entry), banking +$2.40 rather than round-tripping to the far stop.",
+        "learnings": "Textbook case for why the wide stop plus active management works \u2014 the far -8% stop never came into play and the momentum layer captured the move. BTC remains the weakest of the three majors in backtest (PF 0.65), so taking the mechanical exit rather than pressing was the right call."
+      }
     },
     {
       "id": "trade-1787562068556",
