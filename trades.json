@@ -261,7 +261,12 @@
       "status": "closed",
       "signal": "breakout",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Long ETH taken on a bullish 1h EMA stack; expected continuation off the trend structure with the wide -8% stop letting the trailing/momentum layer do the exiting.",
+        "exitReason": "Manual early close on a hard signal flip: analyze printed SHORT conf 77 against the long, with price under 1h EMA50, negative MACD on 1h and 15m, and a volume-confirmed 15m breakdown of the recent low.",
+        "learnings": "Cutting on a 77-conf opposing signal with volume confirmation beat waiting for the -8% stop \u2014 the position was only -2.5% and the breakdown was still developing. Lesson holds: the long was opened into a stack that was already rolling over (EMA21 slope negative), so entry quality, not exit timing, was the weak link."
+      }
     },
     {
       "id": "trade-1786700740718",
