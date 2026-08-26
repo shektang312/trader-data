@@ -32,7 +32,12 @@
       "status": "closed",
       "signal": "ema-stack-bearish",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Short ETH entered at 2455.6 on a bearish 1h setup \u2014 TA engine scored a downside continuation with the EMA stack rolling over and momentum negative.",
+        "exitReason": "Manual early close on hard signal flip: ta.analyze went LONG conf 83 against the short (price back above 1h EMA50, 1h RSI 55, MACD histogram positive, 15m breakout of the recent high with volume confirming). Cut at 2498.2 for -$1.88 rather than let it ride to the -8% stop.",
+        "learnings": "Thesis was invalidated, not just noisy \u2014 a volume-confirmed 15m breakout in the opposite direction is the one condition that justifies overriding the wide-stop discipline. Cost ~0.45% of equity to exit a trade the signal no longer supported. Worth watching whether these flip-exits beat simply holding to the trail; log a few more before drawing a conclusion."
+      }
     },
     {
       "id": "trade-1787693471169",
