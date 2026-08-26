@@ -15,7 +15,12 @@
       "status": "closed",
       "signal": "ema-stack-bearish",
       "confidence": 78,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Short entered on a bearish 1h EMA stack with SOL rejecting the EMA50 \u2014 expected continuation of the downtrend in the majors.",
+        "exitReason": "Manual early close: the 15m signal flipped hard against the position (LONG conf 83) with a confirmed breakout of the recent high on volume, invalidating the short thesis well before the -8% stop.",
+        "learnings": "Cutting on a clean, volume-confirmed signal reversal beat waiting for the wide stop \u2014 the loss stayed at ~1.4% instead of risking a full 8%. Watch for shorting into a flat/choppy 1h EMA stack where price is still above EMA50; that is a weaker short setup than the entry score suggested."
+      }
     },
     {
       "id": "trade-1787708736084",
