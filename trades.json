@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1787827534052",
+      "coin": "ETH",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 0.0415,
+      "entryPrice": 2504.8,
+      "exitPrice": null,
+      "openedAt": "2026-08-27T10:45:34Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "ema-stack-bull",
+      "confidence": 84,
+      "testnet": false
+    },
+    {
       "id": "trade-1787817672920",
       "coin": "BTC",
       "direction": "LONG",
