@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1787873436531",
+      "coin": "SOL",
+      "direction": "LONG",
+      "leverage": 5,
+      "size": 0.96,
+      "entryPrice": 109.96,
+      "exitPrice": null,
+      "openedAt": "2026-08-27T23:30:36Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "ema-stack-breakout",
+      "confidence": 84,
+      "testnet": false
+    },
+    {
       "id": "trade-1787854538113",
       "coin": "SOL",
       "direction": "LONG",
