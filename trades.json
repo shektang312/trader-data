@@ -132,7 +132,12 @@
       "status": "closed",
       "signal": "breakdown",
       "confidence": 77,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "BTC SHORT entered on a 15m breakdown/mean-reversion read against a mildly bullish 1h backdrop; expected continuation lower off the recent range low.",
+        "exitReason": "Manual early close on hard signal flip \u2014 ta.analyze turned LONG at conf 83 with a 15m breakout of the recent high plus volume confirmation, i.e. the exact opposite of the entry thesis. Cut at -$1.03 rather than let it run to the -8% stop.",
+        "learnings": "Correct discipline: a confirmed opposite-direction breakout with volume is thesis-breaking, not noise, and cutting it at ~1% beat waiting on a far stop. Reinforces the backtest note that BTC is the negative coin of the majors (PF 0.65) \u2014 shorts against a rising 1h EMA stack are the weakest setup in the book."
+      }
     },
     {
       "id": "trade-1787664667556",
