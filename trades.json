@@ -15,7 +15,12 @@
       "status": "closed",
       "signal": "ema-stack-breakout",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "SOL long taken on a bullish 1h EMA stack (9>21>50) with price above EMA50 and a rising EMA21 \u2014 a continuation setup in the majors-only universe, entered at 107.62.",
+        "exitReason": "Momentum exit fired by manage: price rolled under the 15m EMA while up +1.17%, so the deterministic layer banked the move at 108.94 rather than waiting on the far +20% TP.",
+        "learnings": "Textbook case for why the -8% stop stays wide and the momentum layer does the exiting \u2014 the trade never came near the stop and still closed green. Re-entry was declined the same cycle despite SOL rescoring 84: RSI 74 is extended, and re-opening what manage just closed would defeat the exit layer."
+      }
     },
     {
       "id": "trade-1787853643535",
