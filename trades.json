@@ -15,7 +15,12 @@
       "status": "closed",
       "signal": "ema-stack-breakout",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Opened BTC LONG on the ta.analyze trend-continuation setup: 1h EMA stack bullish (9>21>50), price above EMA50, EMA21 rising and MACD histogram positive \u2014 a majors trend-follow entry expecting continuation toward the recent 80.8k high.",
+        "exitReason": "Momentum exit from manage: price rolled under the 15m EMA while in profit (+1.14% favourable, entry 79520 -> exit 80438), so the mechanical layer banked +$1.20 instead of waiting for the far +20% TP.",
+        "learnings": "Working as designed \u2014 small green from the active-management layer, not the TP. Worth noting BTC re-scores conf 90 immediately after the exit, which is above the 85 entry ceiling, so no re-entry: the same trend that produced the winner is now too extended to buy. Wide -8% stop again did its job by never being touched."
+      }
     },
     {
       "id": "trade-1787828432991",
