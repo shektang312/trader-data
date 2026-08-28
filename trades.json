@@ -54,7 +54,12 @@
       "status": "closed",
       "signal": "ema-stack-breakout",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Entered BTC LONG on a bullish 1h confluence read (EMA stack/price reclaim) expecting continuation off the recent range.",
+        "exitReason": "Manual early close: TA flipped hard against the long \u2014 analyze returned SHORT conf 77 with price under 1h EMA50, negative 1h MACD, and a volume-confirmed 15m breakdown of the recent low. Cut at -1.3% (-$1.39) rather than let it bleed toward the -8% stop.",
+        "learnings": "Thesis-invalidation close worked as intended: a conf-77 opposing signal is a real flip, not noise, so acting beat waiting. Also reinforces the backtest note that BTC is the weak major (PF 0.65) \u2014 the edge lives in ETH/SOL, and BTC longs need a cleaner setup to be worth the slot."
+      }
     },
     {
       "id": "trade-1787839244264",
