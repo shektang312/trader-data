@@ -32,7 +32,12 @@
       "status": "closed",
       "signal": "ema-stack-breakout",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Entered SOL long on a bullish confluence setup (1h EMA stack + momentum) expecting continuation in the majors uptrend.",
+        "exitReason": "Manual early close on hard signal flip: ta.analyze went SHORT conf 83 against the long \u2014 price under 1h EMA50, EMA21 falling -0.38%, MACD negative, 15m breakdown of the recent low with volume confirmation. Cut at -5.5% rather than ride to the -8% stop.",
+        "learnings": "The entry thesis was fully invalidated, not just noise \u2014 every factor that justified the long had reversed. Cutting saved roughly $3 versus the stop. Honest caveat: 15m RSI was 31 (oversold), so a bounce was possible; discretionary early exits like this need tracking to confirm they beat letting the wide stop work."
+      }
     },
     {
       "id": "trade-1787854538113",
