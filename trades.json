@@ -1,6 +1,23 @@
 {
   "trades": [
     {
+      "id": "trade-1787958038487",
+      "coin": "BTC",
+      "direction": "SHORT",
+      "leverage": 5,
+      "size": 0.00133,
+      "entryPrice": 77710.0,
+      "exitPrice": null,
+      "openedAt": "2026-08-28T23:00:38Z",
+      "closedAt": null,
+      "pnlUsd": null,
+      "pnlPct": null,
+      "status": "open",
+      "signal": "ema-stack-bearish",
+      "confidence": 84,
+      "testnet": false
+    },
+    {
       "id": "trade-1787933764480",
       "coin": "ETH",
       "direction": "SHORT",
