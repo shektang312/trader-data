@@ -49,7 +49,12 @@
       "status": "closed",
       "signal": "breakdown",
       "confidence": 77,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Short BTC from 79347 on the scan's bearish majors signal \u2014 1h EMA stack rolling over with 15m breakdown confirmation, expecting continuation lower in a broadly weak crypto tape.",
+        "exitReason": "Momentum exit by manage: price at 77722.5 was +2.05% in favour and rolled back above the 15m EMA, so the deterministic momentum layer banked it rather than round-tripping toward the far -8%/+20% brackets.",
+        "learnings": "Textbook case for why the wide stop plus active management works: the trade never came close to either bracket and the 15m momentum rule captured a small but real +2% move. Note the CLAUDE.md caveat that BTC has been the negative major in backtest (-3.09, PF 0.65) \u2014 this one worked, but keep the sample honest and do not over-weight it."
+      }
     },
     {
       "id": "trade-1787873436531",
