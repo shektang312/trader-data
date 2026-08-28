@@ -154,7 +154,12 @@
       "status": "closed",
       "signal": "ema-stack-bull",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Entered ETH long on a bullish confluence setup expecting a bounce off the 1h EMA stack; thesis was that ETH would lead a majors reclaim.",
+        "exitReason": "Manual early close on a hard signal flip: ta.analyze turned SHORT at conf 83 with price under 1h EMA50, RSI 39, negative MACD on both 1h/15m, and a volume-confirmed 15m breakdown of the recent low. Cut at -2.4% (-$2.47) rather than ride to the -8% stop.",
+        "learnings": "Correct call to cut on a confirmed directional flip instead of hoping \u2014 the whole majors complex (BTC short, SOL soft) was bearish while we sat long ETH, which was the tell. Lesson: when the other two majors are both signalling down, a lone long in the third is fighting correlation, not finding divergence."
+      }
     },
     {
       "id": "trade-1787817672920",
