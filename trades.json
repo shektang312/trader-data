@@ -49,7 +49,12 @@
       "status": "closed",
       "signal": "breakdown",
       "confidence": 83,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "Short entered on a bearish 1h EMA stack with price under EMA50 \u2014 expected continuation of the downtrend in the majors.",
+        "exitReason": "Manual early exit on hard signal flip: ta.analyze turned LONG at conf 75 (price reclaimed 1h EMA50, EMA21 slope +0.19%, RSI 56, MACD hist positive) while we were short. Cut at -1.19% rather than let it run to the -8% stop.",
+        "learnings": "The bearish thesis was invalidated within hours; SOL's higher ATR (0.57% vs 0.29% on BTC/ETH) means it reclaims levels faster, so its shorts need the tightest thesis-monitoring of the three majors. Exiting on a clean full-flip rather than waiting for the stop saved ~6.8% of adverse room."
+      }
     },
     {
       "id": "trade-1787908569239",
