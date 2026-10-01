@@ -29,15 +29,20 @@
       "leverage": 5,
       "size": 0.00133,
       "entryPrice": 77710.0,
-      "exitPrice": null,
+      "exitPrice": 84231.0,
       "openedAt": "2026-08-28T23:00:38Z",
-      "closedAt": null,
-      "pnlUsd": null,
-      "pnlPct": null,
-      "status": "open",
+      "closedAt": "2026-09-21T08:38:00Z",
+      "pnlUsd": -8.6729,
+      "pnlPct": -8.39,
+      "status": "closed",
       "signal": "ema-stack-bearish",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "BTC SHORT on a 1h bearish trend stack (conf in the 55-84 band).",
+        "exitReason": "Hit the resting -8% exchange stop at 84231 on 2026-09-21 (slipped past 83927). Opened 2026-08-29/30; loop was stopped by Shek 2026-08-30 08:03 JST with this position left on its exchange brackets, so no trailing/momentum management ran.",
+        "learnings": "Shorts lost in every sample reviewed 2026-10-01; disabled. Flatten when pausing."
+      }
     },
     {
       "id": "trade-1787933764480",
