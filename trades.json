@@ -41,15 +41,20 @@
       "leverage": 5,
       "size": 0.0423,
       "entryPrice": 2442.9,
-      "exitPrice": null,
+      "exitPrice": 2639.6,
       "openedAt": "2026-08-28T16:16:04Z",
-      "closedAt": null,
-      "pnlUsd": null,
-      "pnlPct": null,
-      "status": "open",
+      "closedAt": "2026-09-11T13:59:00Z",
+      "pnlUsd": -8.3204,
+      "pnlPct": -8.05,
+      "status": "closed",
       "signal": "breakdown",
       "confidence": 83,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "ETH SHORT on a 1h bearish trend stack (conf in the 55-84 band).",
+        "exitReason": "Hit the resting -8% exchange stop at 2639.6 on 2026-09-11. Opened 2026-08-29/30; loop was stopped by Shek 2026-08-30 08:03 JST with this position left on its exchange brackets, so no trailing/momentum management ran.",
+        "learnings": "Leaving positions on bare -8% brackets for weeks converts every adverse drift into a full stop-out (all 3 paused positions lost ~8%). Flatten when pausing. Shorts are now disabled (PF 0.25 backtest)."
+      }
     },
     {
       "id": "trade-1787926582196",
