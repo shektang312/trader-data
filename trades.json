@@ -7,15 +7,20 @@
       "leverage": 5,
       "size": 0.98,
       "entryPrice": 105.02,
-      "exitPrice": null,
+      "exitPrice": 96.54,
       "openedAt": "2026-08-29T17:15:36Z",
-      "closedAt": null,
-      "pnlUsd": null,
-      "pnlPct": null,
-      "status": "open",
+      "closedAt": "2026-09-15T18:47:00Z",
+      "pnlUsd": -8.3072,
+      "pnlPct": -8.07,
+      "status": "closed",
       "signal": "ema-reclaim",
       "confidence": 75,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "SOL LONG on a 1h bullish trend stack (conf in the 55-84 band).",
+        "exitReason": "Hit the resting -8% exchange stop at ~96.54 on 2026-09-16 JST. Opened 2026-08-29/30; loop was stopped by Shek 2026-08-30 08:03 JST with this position left on its exchange brackets, so no trailing/momentum management ran.",
+        "learnings": "Unmanaged, a long that is never trailed has only one exit: the far stop. Flatten when pausing the loop."
+      }
     },
     {
       "id": "trade-1787958038487",
