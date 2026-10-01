@@ -246,13 +246,19 @@
       "entryPrice": 79030.0,
       "exitPrice": null,
       "openedAt": "2026-08-27T08:01:12Z",
-      "closedAt": null,
-      "pnlUsd": null,
-      "pnlPct": null,
-      "status": "open",
+      "closedAt": "2026-10-01T02:00:00Z",
+      "pnlUsd": 0.0,
+      "pnlPct": 0.0,
+      "status": "closed",
       "signal": "breakout",
       "confidence": 83,
-      "testnet": false
+      "testnet": false,
+      "reconciled": "phantom",
+      "notes": {
+        "hypothesis": "(unknown \u2014 ledger record only)",
+        "exitReason": "Ledger phantom: record stayed 'open' though no matching exchange position existed (lost-update bug). Closed with $0 during the 2026-10-01 review; the real P&L for these trades is in Hyperliquid fills, not this record.",
+        "learnings": "Ledger and exchange diverged by ~$19 over Aug 13-30. Exchange fills are the source of truth for P&L."
+      }
     },
     {
       "id": "trade-1787796041964",
