@@ -71,7 +71,12 @@
       "status": "closed",
       "signal": "breakout",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "1h EMA trend-stack long on BTC from scan within the 55-84 conf band; expected continuation of the intraday uptrend.",
+        "exitReason": "Mechanical momentum exit by manage-all: price rolled under the 15m EMA at +1.14% favorable, banked ~+$1.10.",
+        "learnings": "Momentum layer did its job, locking a small green instead of round-tripping. BTC is the historically weakest major, so a modest bank here is a fine outcome."
+      }
     },
     {
       "id": "trade-1790826318853",
