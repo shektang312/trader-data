@@ -32,7 +32,12 @@
       "status": "closed",
       "signal": "trend-stack",
       "confidence": 78,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "SOL LONG on bullish 1h EMA stack (9>21>50) with rising EMA21 and positive 1h MACD; expected trend continuation.",
+        "exitReason": "Momentum exit by manage: price rolled under the 15m EMA while ~+1.06% in profit; closed at 120.85 vs 119.59 entry (~+$1.0 gross).",
+        "learnings": "Mechanical exit banked a small green trade as designed. The 1h trend was still intact (scan re-signalled conf 84 immediately), so the 15m momentum exit may churn in steady uptrends \u2014 worth checking whether exit-then-reenter pairs cost more in fees than they save."
+      }
     },
     {
       "id": "trade-1790846117843",
