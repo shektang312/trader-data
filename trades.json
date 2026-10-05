@@ -88,7 +88,12 @@
       "status": "closed",
       "signal": "ema-stack-bull",
       "confidence": 78,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "1h EMA stack bullish long on ETH (in-band confidence), expecting trend continuation alongside BTC.",
+        "exitReason": "Momentum exit by manage-all: price rolled under 15m EMA while +1.26% in profit; closed @2724.9 for ~+$1.2.",
+        "learnings": "Mechanical exit banked a small green move as designed; signal re-qualified (conf 84) right after, so re-entered at ~same price \u2014 watch whether quick churn like this costs fees on net."
+      }
     },
     {
       "id": "trade-1790831720250",
