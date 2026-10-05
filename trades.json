@@ -161,15 +161,20 @@
       "leverage": 5,
       "size": 0.036,
       "entryPrice": 2693.4,
-      "exitPrice": null,
+      "exitPrice": 2692.5,
       "openedAt": "2026-10-01T03:45:18Z",
-      "closedAt": null,
-      "pnlUsd": null,
-      "pnlPct": null,
-      "status": "open",
+      "closedAt": "2026-10-01T07:21:00Z",
+      "pnlUsd": -0.0324,
+      "pnlPct": -0.03,
+      "status": "closed",
       "signal": "trend",
       "confidence": 78,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "1h trend-stack LONG from scan (first trade after the 2026-10-01 resume).",
+        "exitReason": "Closed ~breakeven at 2692.5 on 2026-10-01 16:21 JST (exchange fill); the ledger never recorded the close (lost-update bug), so it was reconciled from fills on 2026-10-05.",
+        "learnings": "Breakeven scratch. The ledger still drops closes occasionally; exchange fills are the truth."
+      }
     },
     {
       "id": "trade-1788023736328",
