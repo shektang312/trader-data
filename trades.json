@@ -49,7 +49,12 @@
       "status": "closed",
       "signal": "trend-stack",
       "confidence": 84,
-      "testnet": false
+      "testnet": false,
+      "notes": {
+        "hypothesis": "BTC LONG from scan best: 1h EMA stack bullish (9>21>50), price above EMA50, rising EMA21 \u2014 trend continuation within the 55-84 conf band.",
+        "exitReason": "Momentum exit by manage-all: price rolled under the 15m EMA (15m MACD hist negative) while +1.51% in favour; filled ~86475 vs 86476.5 mark, +$1.46.",
+        "learnings": "The mechanical momentum exit banked a small green trade instead of letting a stalling move round-trip. The scan immediately re-scored BTC LONG 84 and it was re-entered at ~the same price \u2014 watch whether exit-then-reenter churn costs fees without adding edge."
+      }
     },
     {
       "id": "trade-1791103520631",
